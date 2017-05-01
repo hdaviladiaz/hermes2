@@ -6,12 +6,13 @@ var execute = function (request) {
     var from = parameters.from;
     var to = parameters.to;
     var date = parameters.date;
-    var text = searchFlightService.searchFlights(from, to, date);
+    var result = searchFlightService.searchFlights(from, to, date);
+    parameters.page = result.page;
     return {
-        text: text,
+        text: result.text,
         context: [{
-            name:"flight",
-            parameters:parameters
+            name: "flight",
+            parameters: parameters
         }]
     }
 }

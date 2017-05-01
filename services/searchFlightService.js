@@ -19,26 +19,20 @@ var searchFlights = function (origin, destination, date) {
 }
 
 
-var moreFlights = function (index) {
-
-  var text = "I have no options saved. Please give me the travel information.";
-  if (!searchFlightGestor.isStoredData())
-    return text;
-  var flight = searchFlightGestor.moreFlights(index);
-  text = "";
-  if (index) {
-    if (flight.trips.length > 0)
-      text += humanize.ordinal(index) + " for " + flight.trips[0].price + " " + flight.currency + ".";
-    else
-      text += "This fligth does not exist."
-  }
-  else {
+var moreFlights = function (origin, destination, date, page) {
+  var flight = searchFlightGestor.searchFlights(origin, destination, date, page + 1, 2);
+  text = "There are no more flights.";
+  if (flight.trips && flight.trips.length > 0) {
+    page = page + 1;
+    text = "";
     _.each(flight.trips, function (trip, index) {
-      text += humanize.ordinal(index + 1 + (flight.pagination.page - 1) * 2) + " for " + trip.price + " " + flight.currency + ".";
+      text += humanize.ordinal(index + 1 + (flight.pagination.page - 1) * 2) + " for " + trip.price + " " + flight.currency + ". ";
     })
   }
-
-  return text;
+  return {
+    text: text,
+    page: page
+  };
 }
 
 var getCheaperFlights = function (numberOfFlights) {
