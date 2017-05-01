@@ -20,7 +20,7 @@ var searchFlights = function (origin, destination, date) {
 
 
 var moreFlights = function (origin, destination, date, page) {
-  page=parseInt(page);
+  page = parseInt(page);
   var flight = searchFlightGestor.searchFlights(origin, destination, date, page + 1, 2);
   text = "There are no more flights.";
   if (flight.trips && flight.trips.length > 0) {
@@ -36,9 +36,9 @@ var moreFlights = function (origin, destination, date, page) {
   };
 }
 var previousFlights = function (origin, destination, date, page) {
-  page=parseInt(page);
+  page = parseInt(page);
   var flight = searchFlightGestor.searchFlights(origin, destination, date, page - 1, 2);
-  text = "There are no more flights.";
+  text = "There are no previous flights.";
   if (flight.trips && flight.trips.length > 0) {
     page = page - 1;
     text = "";
@@ -49,6 +49,24 @@ var previousFlights = function (origin, destination, date, page) {
   return {
     text: text,
     page: page
+  };
+}
+var specificFlights = function (origin, destination, date, numbers) {
+  var flight = searchFlightGestor.searchFlights(origin, destination, date, 1);
+  text = "The flights do not exists.";
+  if (flight.trips && flight.trips.length > 0) {
+    text = "";
+    _.each(flight.trips, function (trip, index) {
+      if (numbers.indexOf(index + 1) >= 0) {
+        text += humanize.ordinal(index + 1) + " for " + trip.price + " " + flight.currency + ". ";
+      }
+    })
+  } else {
+    numbers = [];
+  }
+  return {
+    text: text,
+    numbers: numbers
   };
 }
 
@@ -102,8 +120,8 @@ var getFlightTime = function (index) {
   return text;
 }
 
-
-exports.previousFlights=previousFlights;
+exports.specificFlights = specificFlights;
+exports.previousFlights = previousFlights;
 exports.getFlightTime = getFlightTime;
 exports.searchFlights = searchFlights;
 exports.moreFlights = moreFlights;
