@@ -20,6 +20,7 @@ var searchFlights = function (origin, destination, date) {
 
 
 var moreFlights = function (origin, destination, date, page) {
+  page=parseInt(page);
   var flight = searchFlightGestor.searchFlights(origin, destination, date, page + 1, 2);
   text = "There are no more flights.";
   if (flight.trips && flight.trips.length > 0) {
