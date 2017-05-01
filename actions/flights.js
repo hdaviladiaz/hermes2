@@ -10,7 +10,7 @@ var execute = function (request) {
     parameters.page = 10;
     return {
         text: text,
-        context: parameters
+        context: [parameters]
     }
 }
 

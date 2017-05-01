@@ -4,10 +4,10 @@ var createResponse = function (options) {
         speech: options.text,
         displayText: options.text,
         data: {},
-        contextOut: [],
+        contextOut: options.context,
         source: "",
         followupEvent: {},
-        context: options.context
+        context: {}
     }
     if (options.event) {
         result.followupEvent = {
