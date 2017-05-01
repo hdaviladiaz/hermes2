@@ -7,7 +7,7 @@ var createResponse = function (options) {
         contextOut: [],
         source: "",
         followupEvent: {},
-        context: option.context
+        context: options.context
     }
     if (options.event) {
         result.followupEvent = {
