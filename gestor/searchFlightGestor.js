@@ -52,10 +52,10 @@ var getFlightTime = function (index) {
     return flightsResult;
 }
 
-var getCheaperFlights = function (numberOfFlights) {
-    var flights = this.searchFlights(storedData.to, storedData.from, storedData.date, 1);
+var getCheaperFlights = function (from,to,date) {
+    var flights = this.searchFlights(to, from, date, 1);
     flights.trips = _.sortBy(flights.trips, function (trip) { return trip.price; })
-    flights.trips = _.first(flights.trips, numberOfFlights);
+    flights.trips = _.first(flights.trips, 1);
     storedData.trips = flights.trips;
     return flights;
 }

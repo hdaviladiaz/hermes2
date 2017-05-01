@@ -70,24 +70,13 @@ var specificFlights = function (origin, destination, date, numbers) {
   };
 }
 
-var getCheaperFlights = function (numberOfFlights) {
-  var flights = searchFlightGestor.getCheaperFlights(numberOfFlights);
-  var text = "I have no options saved. Please give me the travel information.";
-  if (!searchFlightGestor.isStoredData()) {
-    return text;
-  }
-  if (numberOfFlights == 1) {
-    var momentDate = moment(flights.trips[0].departure.date, "YYYY-MM-DD");
-    text = "The cheapest flight for " + humanize.naturalDay(momentDate.unix()) + " has a cost of "
-      + flights.trips[0].price + " " + flights.currency + ".";
-  }
-  else {
-    var momentDate = moment(flights.trips[0].departure.date, "YYYY-MM-DD");
-    text = "The cheapest flights for " + humanize.naturalDay(momentDate.unix()) + " are: ";
-    _.each(flights.trips, function (trip, index) {
-      text += humanize.ordinal(index + 1) + " for " + trip.price + " " + flights.currency + ".";
-    })
-  }
+var getCheaperFlights = function (origin, destination, date) {
+  var flights = searchFlightGestor.getCheaperFlights(origin, destination, date);
+  var text = "";
+  var momentDate = moment(flights.trips[0].departure.date, "YYYY-MM-DD");
+  text = "The cheapest flight for " + humanize.naturalDay(momentDate.unix()) + " has a cost of "
+    + flights.trips[0].price + " " + flights.currency + ".";
+
   return text;
 }
 
