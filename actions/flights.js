@@ -10,8 +10,12 @@ var execute = function (request) {
     return {
         text: text,
         context: [{
-            name:"flight",
-            parameters:parameters
+            name: "flight",
+            parameters: parameters
+        },
+        {
+            name: "flights-followup",
+            parameters: parameters
         }]
     }
 }
