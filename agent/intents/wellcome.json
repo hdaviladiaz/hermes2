@@ -1,0 +1,32 @@
+{
+  "userSays": [],
+  "id": "71b5abc4-40f1-4ecf-9599-ab2cc1bd7c8d",
+  "name": "wellcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hello, I am Hermes, your LATAM personal assistant.",
+            "Hi, my name is Hermes. I am your LATAM personal assistant."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

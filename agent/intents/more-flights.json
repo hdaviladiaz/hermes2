@@ -1,0 +1,86 @@
+{
+  "userSays": [
+    {
+      "id": "37e9693a-7135-430b-ada9-88ff6589f730",
+      "data": [
+        {
+          "text": "more flights"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a14fc7f-e06f-443e-b533-b70a7ee9940c",
+      "data": [
+        {
+          "text": "do you have more flights?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d3a2fd4b-4210-4ed7-9bfe-16ae427a5ab5",
+      "data": [
+        {
+          "text": "more options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "09e99a4d-68a0-4548-a22e-b01ec2861d6f",
+      "data": [
+        {
+          "text": "give me more options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a0bf8b32-8835-4423-beaf-bd34cb7d1c9e",
+      "data": [
+        {
+          "text": "is there any other option?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e159248d-2c20-4c75-ac57-2ca97510ad77",
+      "data": [
+        {
+          "text": "do you have other options?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7f5581df-3cb5-415c-825f-2da066f349a3",
+  "name": "more-flights",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

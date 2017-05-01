@@ -1,0 +1,79 @@
+{
+  "userSays": [],
+  "id": "67d09c6f-b59d-4ba1-b5d0-515193337cc8",
+  "name": "user-information",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "name",
+          "value": "#get-user-information.name",
+          "prompts": [
+            "What is your name?",
+            "Your name please.",
+            "Can you  tell me your name?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.last-name",
+          "name": "lastname",
+          "value": "#get-user-information.lastname",
+          "prompts": [
+            "Your last name please.",
+            "Please give me your last name.",
+            "What is your last name?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "passport",
+          "value": "#get-user-information.passport",
+          "prompts": [
+            "Your passport number please?",
+            "Give me your passport number please?",
+            "What is your passport number?"
+          ],
+          "isList": false
+        },
+        {
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "action",
+          "value": "#get-user-information.action",
+          "prompts": [],
+          "defaultValue": ""
+        },
+        {
+          "dataType": "@sys.any",
+          "name": "parameters",
+          "value": "#get-user-information.parameters"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "get-user-information"
+    }
+  ]
+}

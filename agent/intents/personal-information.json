@@ -1,0 +1,169 @@
+{
+  "userSays": [
+    {
+      "id": "f389ba3f-3b89-4f14-ae10-923a1e62861f",
+      "data": [
+        {
+          "text": "tell me my "
+        },
+        {
+          "text": "name",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6ed6f3ae-44c0-4c6c-8812-1cecea2e1f61",
+      "data": [
+        {
+          "text": "give me my "
+        },
+        {
+          "text": "last name",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "724be8ac-c350-499a-aea7-d85a6302a2d3",
+      "data": [
+        {
+          "text": "tell me my "
+        },
+        {
+          "text": "last name",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5c9325d5-d9ba-4d36-8b3d-8dae32c902b9",
+      "data": [
+        {
+          "text": "get my information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5025a528-7708-4dac-8cb4-b0f9986d4eff",
+      "data": [
+        {
+          "text": "tell me who am I"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d3004874-dfb5-4e7f-8c47-9bb5e6585066",
+      "data": [
+        {
+          "text": "Give my information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "615cd356-6d0f-4cf7-b583-0bee5aec7fe0",
+      "data": [
+        {
+          "text": "Who am I?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f3b03d4b-3334-4b35-ac1c-f6e7094f048d",
+      "data": [
+        {
+          "text": "what is my "
+        },
+        {
+          "text": "passport?",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dbe9fffc-730a-4f90-b92c-fa8f1af5dc2b",
+      "data": [
+        {
+          "text": "what is my "
+        },
+        {
+          "text": "last name?",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5780ae7a-db35-40dd-a360-4e3649bbad88",
+      "data": [
+        {
+          "text": "What is my "
+        },
+        {
+          "text": "name?",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cbac4b80-fb89-4f74-9b67-7829e5406bfa",
+  "name": "personal-information",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@information-field",
+          "name": "informationFields",
+          "value": "$informationFields",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

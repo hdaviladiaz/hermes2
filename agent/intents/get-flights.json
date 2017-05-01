@@ -1,0 +1,128 @@
+{
+  "userSays": [
+    {
+      "id": "fb861595-f5c0-49e9-8e02-e721f288ce12",
+      "data": [
+        {
+          "text": "Please look for the flights to "
+        },
+        {
+          "text": "Toronto",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Quito",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "two days",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2f2a7932-e1b1-42b1-9046-35abf53d304c",
+      "data": [
+        {
+          "text": "Can you tell me the flights from "
+        },
+        {
+          "text": "Quito",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Buenos Aires",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "tomorrow ?",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "679a6051-5307-4106-9121-2c4451d00b79",
+  "name": "get-flights",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "from",
+          "value": "$from",
+          "prompts": [
+            "What city are you going out of?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "to",
+          "value": "$to",
+          "prompts": [
+            "Where you are going?"
+          ],
+          "isList": false
+        },
+        {
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.date-period",
+          "name": "date-period",
+          "value": "$date-period",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

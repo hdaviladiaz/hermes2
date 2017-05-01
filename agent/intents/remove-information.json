@@ -1,0 +1,391 @@
+{
+  "userSays": [
+    {
+      "id": "65468efb-2c58-4649-b12c-975e4d10bb8d",
+      "data": [
+        {
+          "text": "delete my personal information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a8ec9fdf-e646-42b8-9e01-33423a759673",
+      "data": [
+        {
+          "text": "update all my information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69946271-29d7-47d6-ace2-b2f1517b5cae",
+      "data": [
+        {
+          "text": "update my "
+        },
+        {
+          "text": "lastname",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ee3103b-4aea-4d2f-a140-9480e3024f6c",
+      "data": [
+        {
+          "text": "update my "
+        },
+        {
+          "text": "name",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f9b186c-474c-4e01-9c88-fcdf14d07244",
+      "data": [
+        {
+          "text": "edit my info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "592cca5c-220c-4513-a9b6-e31486523176",
+      "data": [
+        {
+          "text": "edit my "
+        },
+        {
+          "text": "passport",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "330be951-d279-4d12-8668-1cc300941df4",
+      "data": [
+        {
+          "text": "remove my personal info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "de270a0c-db3d-4d79-b2eb-05cdc9efcf18",
+      "data": [
+        {
+          "text": "delete my info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a53f22e5-38e4-43fe-9c06-4474b66afd6f",
+      "data": [
+        {
+          "text": "change all my info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a3f89bc-9320-4135-81e2-377693d1712d",
+      "data": [
+        {
+          "text": "change my information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56d8f178-82c8-4022-9efb-ec84b7bafc68",
+      "data": [
+        {
+          "text": "change my info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "16ff1aeb-8315-4664-8b03-a79432c26349",
+      "data": [
+        {
+          "text": "delete my "
+        },
+        {
+          "text": "passport",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3e0f6f75-2527-41ec-9bd4-808529cebd18",
+      "data": [
+        {
+          "text": "change my "
+        },
+        {
+          "text": "passport",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        },
+        {
+          "text": " and my "
+        },
+        {
+          "text": "name",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4a958a5-9b9e-415d-bd18-c1443b590bdd",
+      "data": [
+        {
+          "text": "change my "
+        },
+        {
+          "text": "name",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7d174b2a-81c1-4738-9b1b-6bd92d97a501",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "name",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        },
+        {
+          "text": " in not correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f214762-ac39-48f5-92c9-904938a7721b",
+      "data": [
+        {
+          "text": "rewrite my "
+        },
+        {
+          "text": "name",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        },
+        {
+          "text": " and my "
+        },
+        {
+          "text": "lastname",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "306d1ea9-78d2-439c-9301-d77b52f0ca60",
+      "data": [
+        {
+          "text": "remove my "
+        },
+        {
+          "text": "name",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        },
+        {
+          "text": " and my "
+        },
+        {
+          "text": "lastname",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e16344ae-eeee-4aa4-823a-0185f19b650a",
+      "data": [
+        {
+          "text": "remove only my "
+        },
+        {
+          "text": "name",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9a4804e3-6106-444e-92c6-c4d0e67fcc0f",
+      "data": [
+        {
+          "text": "remove my "
+        },
+        {
+          "text": "lastname",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "676c863f-d0ba-44bc-a3ff-bde1efca2f47",
+      "data": [
+        {
+          "text": "remove "
+        },
+        {
+          "text": "passport",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a449365-7ecc-4f19-92c1-c007880c8967",
+      "data": [
+        {
+          "text": "remove my "
+        },
+        {
+          "text": "name",
+          "alias": "informationFields",
+          "meta": "@information-field",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c8eb124-8281-457c-b597-13876e136908",
+      "data": [
+        {
+          "text": "delete my data"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "467bfd57-d51a-428e-8e73-e6321e2f754f",
+      "data": [
+        {
+          "text": "remove my data"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "05a097dd-d7ef-48a5-9564-83df6e536296",
+      "data": [
+        {
+          "text": "delete my information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3a9b77a0-ad6d-4b90-9e4f-85b9c5a1dbf0",
+      "data": [
+        {
+          "text": "remove my personal information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "91342a7f-7e2a-4f1a-8a70-8b7db4940dde",
+  "name": "remove-information",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@information-field",
+          "name": "informationFields",
+          "value": "$informationFields",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

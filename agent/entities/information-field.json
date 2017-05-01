@@ -1,0 +1,30 @@
+{
+  "id": "8fb36e8d-cf32-4724-adb2-76a518d9de09",
+  "name": "information-field",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "passport",
+      "synonyms": [
+        "passport",
+        "Id",
+        "passport number",
+        "id number"
+      ]
+    },
+    {
+      "value": "name",
+      "synonyms": [
+        "name"
+      ]
+    },
+    {
+      "value": "last name",
+      "synonyms": [
+        "last name"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
