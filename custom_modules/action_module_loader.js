@@ -1,6 +1,6 @@
 var loadActionModule = function (moduleName) {
     try {
-        var module = require("../actions/" + moduleName + "_action.js");
+        var module = require("../actions/" + moduleName + ".js");
         return module;
     } catch (exeption) {
         return false;
