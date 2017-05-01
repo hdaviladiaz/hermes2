@@ -35,6 +35,22 @@ var moreFlights = function (origin, destination, date, page) {
     page: page
   };
 }
+var previousFlights = function (origin, destination, date, page) {
+  page=parseInt(page);
+  var flight = searchFlightGestor.searchFlights(origin, destination, date, page - 1, 2);
+  text = "There are no more flights.";
+  if (flight.trips && flight.trips.length > 0) {
+    page = page - 1;
+    text = "";
+    _.each(flight.trips, function (trip, index) {
+      text += humanize.ordinal(index + 1 + (flight.pagination.page - 1) * 2) + " for " + trip.price + " " + flight.currency + ". ";
+    })
+  }
+  return {
+    text: text,
+    page: page
+  };
+}
 
 var getCheaperFlights = function (numberOfFlights) {
   var flights = searchFlightGestor.getCheaperFlights(numberOfFlights);
@@ -86,6 +102,8 @@ var getFlightTime = function (index) {
   return text;
 }
 
+
+exports.previousFlights=previousFlights;
 exports.getFlightTime = getFlightTime;
 exports.searchFlights = searchFlights;
 exports.moreFlights = moreFlights;
