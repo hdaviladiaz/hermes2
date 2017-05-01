@@ -56,7 +56,6 @@ var getCheaperFlights = function (from,to,date) {
     var flights = this.searchFlights(to, from, date, 1);
     flights.trips = _.sortBy(flights.trips, function (trip) { return trip.price; })
     flights.trips = _.first(flights.trips, 1);
-    storedData.trips = flights.trips;
     return flights;
 }
 var isStoredData = function () {

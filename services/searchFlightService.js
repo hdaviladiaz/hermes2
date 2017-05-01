@@ -74,9 +74,8 @@ var getCheaperFlights = function (origin, destination, date) {
   var flights = searchFlightGestor.getCheaperFlights(origin, destination, date);
   var text = "";
   var momentDate = moment(flights.trips[0].departure.date, "YYYY-MM-DD");
-  text = "The cheapest flight for " + humanize.naturalDay(momentDate.unix()) + " has a cost of "
+  text = "The cheapest flight " + /*humanize.naturalDay(momentDate.unix()) + */" has a cost of "
     + flights.trips[0].price + " " + flights.currency + ".";
-
   return text;
 }
 
