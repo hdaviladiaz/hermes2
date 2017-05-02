@@ -33,12 +33,12 @@ var ramdonFlights = function (origin, destination, date, page, limit) {
       "layovers": [],
       "departure": {
         "date": moment(date, patternFormat).add(0, 'days').format(),
-        "time": moment(date, patternFormat).add(i, 'minutes').format('HH:mm'),
+        "time":i % 2 == 0 ? "04:30" : "15:00" ,
         "airport": origin + " airport"
       },
       "arrival": {
         "date": moment(date, patternFormat).add(0, 'days').format(),
-        "time": moment(date, patternFormat).add(i + duration, 'minutes').format('HH:mm'),
+        "time": i % 2 == 0 ? "06:30" : "17:00",
         "airport": destination + " airport"
       }
     })
