@@ -1,0 +1,81 @@
+{
+  "userSays": [
+    {
+      "id": "31af8053-66c2-4d41-8763-348e8d5d8a66",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c8502406-8d63-4078-bab5-244f32383817",
+      "data": [
+        {
+          "text": "Whats up"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "77f633dd-1962-49b7-bca3-d1b1fbebc729",
+      "data": [
+        {
+          "text": "Greetings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd07bbd4-9775-4907-be3d-c56e1534fcb2",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "81b46c7a-0103-4623-bd99-0dee8e4e6351",
+      "data": [
+        {
+          "text": "Hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d6e1b32c-ce2e-4b1c-be6a-b53003b7b375",
+  "name": "Greetings",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetings",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hi",
+            "Hello again",
+            "Greetings, one more time"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

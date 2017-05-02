@@ -1,0 +1,213 @@
+{
+  "userSays": [
+    {
+      "id": "d3c264a4-6431-4daa-8f70-0472a09769b5",
+      "data": [
+        {
+          "text": "give me more options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "15cea044-d511-44be-9dc3-b784dbc88911",
+      "data": [
+        {
+          "text": "do you have more options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d310de1d-21ca-425c-b68f-3a4fee37e180",
+      "data": [
+        {
+          "text": "can you give me more options please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2259021a-b75d-431a-a8ff-72900199b6f9",
+      "data": [
+        {
+          "text": "more options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e016697a-6242-4944-8d7b-3868ea661410",
+      "data": [
+        {
+          "text": "more options please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bfc8c9b1-a1e5-4d19-9f4c-f8c2c479e091",
+      "data": [
+        {
+          "text": "can you give me more options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "141e81ea-8145-4e27-98a9-e2cb2e30a0e7",
+      "data": [
+        {
+          "text": "yes give me more options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a850fe61-4a65-4447-90bc-890d76dc644e",
+      "data": [
+        {
+          "text": "can you tell me more options?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75ae94a7-a3b4-4d59-a0a8-6c6acc662ad0",
+      "data": [
+        {
+          "text": "more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "513d2ee1-2672-4f41-a8d0-802e32146d99",
+      "data": [
+        {
+          "text": "more results"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2e6d74db-91f2-4e5a-b15f-138a52e5b22d",
+      "data": [
+        {
+          "text": "anything else"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bff11217-2c08-4b67-81b9-2793201fed41",
+      "data": [
+        {
+          "text": "other results"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d586743a-bb14-4d9d-9e51-287d2b94eaed",
+      "data": [
+        {
+          "text": "what else"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "45464ef3-f542-4a7a-94e6-5f47ff3439ac",
+      "data": [
+        {
+          "text": "are there more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "33290a74-8c51-40e4-ac5c-8424f2ec7a35",
+      "data": [
+        {
+          "text": "tell me more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f91869c4-0ce4-4ba0-9b25-8d949b9da1e1",
+      "data": [
+        {
+          "text": "show me more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a3dffe19-e473-4c99-b2d3-510d20050322",
+      "data": [
+        {
+          "text": "more information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d05d932d-36ed-4b49-a6bc-a6641fa8b0db",
+  "parentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "rootParentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights-More",
+  "auto": true,
+  "contexts": [
+    "flight",
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights.more",
+      "affectedContexts": [
+        {
+          "name": "flight",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I couldn\u0027t get more flights. I will search what was wrong."
+        }
+      ]
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

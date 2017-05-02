@@ -1,0 +1,289 @@
+{
+  "userSays": [
+    {
+      "id": "707952b3-afe4-4a99-93c0-7b898f1dfb71",
+      "data": [
+        {
+          "text": "can you give me the cheapest option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "688f1cb3-f0f0-47c4-b0b2-270bbaf8dbb7",
+      "data": [
+        {
+          "text": "give me the cheapest flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "582657d3-6f0e-413a-bfd7-186c1f6b28de",
+      "data": [
+        {
+          "text": "tell me the cheapest option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5ddf231e-a318-4dab-900e-57440ece1aa0",
+      "data": [
+        {
+          "text": "what is the cheapest option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "239d5f86-174a-4a34-a192-cbf35f8ef5f9",
+      "data": [
+        {
+          "text": "what is the cheapest one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53c9821d-829b-46b8-8f4c-fd5708fcc1c3",
+      "data": [
+        {
+          "text": "give me the cheapest option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "61de0877-28f0-4bfe-9012-e144e73de805",
+      "data": [
+        {
+          "text": "okay give me the cheapest option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "837c88bb-0016-42dc-ba7d-7331b34c54d4",
+      "data": [
+        {
+          "text": "the cheapest option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0183fef6-7665-41a2-9a51-898fb5c6da77",
+      "data": [
+        {
+          "text": "give me the cheapest one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "a5c6ba7a-d918-42be-a881-336ef716711b",
+      "data": [
+        {
+          "text": "tell me the cheap"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b6716778-6700-432e-af07-cb5aabcd6dd3",
+      "data": [
+        {
+          "text": "give me the cheaper"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "791ac0e5-d72b-446e-b631-379183b14950",
+      "data": [
+        {
+          "text": "find me the cheap"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c68f9429-52ad-4993-8715-cb8bb014e976",
+      "data": [
+        {
+          "text": "give the cheapest option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "08d7119e-cb92-4138-8416-642c9582a227",
+      "data": [
+        {
+          "text": "Find me the cheap"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8383526c-b2d0-4840-ab62-06d744ef726c",
+      "data": [
+        {
+          "text": "Give me the cheaper"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ad7ee1fd-3148-4e95-80d1-71b4d45fab8c",
+      "data": [
+        {
+          "text": "Tell me the best priced"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5da00ecc-3f45-4dec-8405-7e70b835cd21",
+      "data": [
+        {
+          "text": "Can you give me the less expensive?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "78271b5a-a697-4426-a3f8-49147eda320e",
+      "data": [
+        {
+          "text": "Tell me the less expensive"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "272a2654-ca0b-4f17-936a-71065feb9581",
+      "data": [
+        {
+          "text": "Tell me the cheapest "
+        },
+        {
+          "text": "one",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e7b5ea37-e806-4519-afb3-1f632b526c41",
+      "data": [
+        {
+          "text": "Tell me the "
+        },
+        {
+          "text": "one",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " of the lowest "
+        },
+        {
+          "text": "price",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c77eccd7-7fc0-44c7-876d-6a133d5b5008",
+      "data": [
+        {
+          "text": "What is the cheapest "
+        },
+        {
+          "text": "one",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2dbf930-3797-45ac-93a7-af466b0df531",
+      "data": [
+        {
+          "text": "Can you tell me the cheapest option?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cccaaeed-9247-4b59-aa41-dfc396bce5cd",
+  "parentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "rootParentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights-Cheapest",
+  "auto": true,
+  "contexts": [
+    "flight",
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights.cheapest",
+      "affectedContexts": [
+        {
+          "name": "flight",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I don\u0027t  have enough information to search the cheapest flight. Where do you want to go?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,137 @@
+{
+  "userSays": [
+    {
+      "id": "6c204a4f-f273-4545-a45c-bfbb3472e6eb",
+      "data": [
+        {
+          "text": "give me the time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "57bea78d-dc47-4f4b-912d-b82af2dd1068",
+      "data": [
+        {
+          "text": "give me the time of the "
+        },
+        {
+          "text": "second",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "374cbd6b-ad05-4dd0-a1b1-6f51d1808183",
+      "data": [
+        {
+          "text": "tell me the time of the "
+        },
+        {
+          "text": "first",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d281509a-bf44-4540-a1e6-8c24db739553",
+      "data": [
+        {
+          "text": "give me the time for the "
+        },
+        {
+          "text": "second",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ebb19c7-6a52-48d7-88cf-9abd137033c1",
+      "data": [
+        {
+          "text": "Tell me the time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3c3c523a-7b4a-43a8-b31a-d565bd18ae1c",
+      "data": [
+        {
+          "text": "Can you give me the time?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a816023a-f4aa-40b7-8d4c-da0c76c98856",
+      "data": [
+        {
+          "text": "Give me the time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "265a3f7e-fd38-4e02-baed-7b1ca851e173",
+  "parentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "rootParentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights-Time",
+  "auto": true,
+  "contexts": [
+    "flight",
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights.time",
+      "affectedContexts": [
+        {
+          "name": "flight",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,163 @@
+{
+  "userSays": [
+    {
+      "id": "b6b881f0-21ac-4f08-b5e5-3c7328f6aca1",
+      "data": [
+        {
+          "text": "go to the next page"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "4c4a43ef-6c61-4183-b68a-337a9fcf3c69",
+      "data": [
+        {
+          "text": "next page please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "22bf15a0-3148-4ace-bb5e-f12c819e6aca",
+      "data": [
+        {
+          "text": "okay go to the next page"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f806f850-7140-4358-8009-29e8da2e22c8",
+      "data": [
+        {
+          "text": "next"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "420114ae-3c30-4e23-b789-4e07b3fee09c",
+      "data": [
+        {
+          "text": "next page"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a96a2c1b-babe-4f2e-835a-d8b669817a74",
+      "data": [
+        {
+          "text": "go forward"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "08dce08b-fc20-4fc3-8784-b7e1483acd33",
+      "data": [
+        {
+          "text": "show me next"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5f01a10d-b9b7-4068-88f1-cafad82f4898",
+      "data": [
+        {
+          "text": "following result"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d88543b-6ae2-456b-a631-6f4bc4f329b3",
+      "data": [
+        {
+          "text": "switch to the next"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ae82012-4789-4ba7-9486-3e4bad2445f8",
+      "data": [
+        {
+          "text": "read the next results"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8dfc5f24-9db9-4b22-957d-6afdc4d6043e",
+      "data": [
+        {
+          "text": "show me the next page"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1abe4e1-f135-4daf-8e98-7d50accf2aee",
+      "data": [
+        {
+          "text": "show me the following results"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f13a467a-2bcf-410c-924b-48ddf03405ef",
+  "parentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "rootParentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights-Next",
+  "auto": true,
+  "contexts": [
+    "flight",
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights.more",
+      "affectedContexts": [
+        {
+          "name": "flight",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

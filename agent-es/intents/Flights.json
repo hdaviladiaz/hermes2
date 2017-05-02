@@ -1,0 +1,691 @@
+{
+  "userSays": [
+    {
+      "id": "f860d943-6cba-46b2-8911-6f99a6f1a2ce",
+      "data": [
+        {
+          "text": "okay tell me the flights from "
+        },
+        {
+          "text": "Quito",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Havana",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7205e46d-01d1-4538-aae3-a55f8405d0ab",
+      "data": [
+        {
+          "text": "can you give me the flights from "
+        },
+        {
+          "text": "Quito",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Havana",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "158dd199-df23-4813-9524-5d65963b4aa3",
+      "data": [
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "21601fe5-b8f7-4c1c-92af-f5d858cf05ed",
+      "data": [
+        {
+          "text": "can you give me old flies from "
+        },
+        {
+          "text": "Havana",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "London",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd3fe65b-e762-4f22-b343-0de612e7ab37",
+      "data": [
+        {
+          "text": "I want to travel "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ba9ce1d-7521-4b9b-a39b-bc3849c71be5",
+      "data": [
+        {
+          "text": "can you tell me the flights from "
+        },
+        {
+          "text": "Quito",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Madrid",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "87b563e5-6b80-4640-9d69-a247af078655",
+      "data": [
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "9b4dcc52-11fb-4915-b461-837f6c95e822",
+      "data": [
+        {
+          "text": "give the flights from "
+        },
+        {
+          "text": "quito",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "madrid",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5291e1bd-e1c1-4310-88fd-1c28e202a19c",
+      "data": [
+        {
+          "text": "give me the flights from "
+        },
+        {
+          "text": "quito",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "madrid",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f6de2608-1050-44fd-a808-2b790546e3ed",
+      "data": [
+        {
+          "text": "can you tell me the flights from "
+        },
+        {
+          "text": "Quito",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Havana",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8abce6e2-08fb-4cb0-88c6-217ee09c1fbb",
+      "data": [
+        {
+          "text": "next Monday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "67f75a5a-9c80-4b51-b65e-0dfbd7e01930",
+      "data": [
+        {
+          "text": "hey tell me the flights from "
+        },
+        {
+          "text": "Havana",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Caracas",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fa23189d-6ef2-42cf-8302-18e7091d0399",
+      "data": [
+        {
+          "text": "next Friday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c291a38a-3e58-46c2-b6d0-ae8e00ead122",
+      "data": [
+        {
+          "text": "hey give me all the flights from "
+        },
+        {
+          "text": "Moscow",
+          "alias": "from",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Madrid",
+          "alias": "to",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c270b8fc-f1e1-4b4b-abd7-87bf3d774bd0",
+      "data": [
+        {
+          "text": "can you give me the flights from "
+        },
+        {
+          "text": "Moscow",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Madrid",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "355ee7a1-432e-4991-8d04-a3927421eb97",
+      "data": [
+        {
+          "text": "can you give me the flight from "
+        },
+        {
+          "text": "Havana",
+          "alias": "from",
+          "meta": "@sys.geo-city"
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Quito",
+          "alias": "to",
+          "meta": "@sys.geo-city"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8afc9728-304e-43a7-824f-9bee0114af8c",
+      "data": [
+        {
+          "text": "find me the flights from "
+        },
+        {
+          "text": "Havana",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "quito",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4457686d-a041-4570-9d36-3461e9c96911",
+      "data": [
+        {
+          "text": "give me the flies from "
+        },
+        {
+          "text": "Havana",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Quito",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fd8d97e7-26fd-49cd-a71a-27691fac19f7",
+      "data": [
+        {
+          "text": "hi find me the flights from "
+        },
+        {
+          "text": "Havana",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Toronto",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "76086f24-6b96-4325-a4c2-f3a0f2892236",
+      "data": [
+        {
+          "text": "Give me the flights from "
+        },
+        {
+          "text": "Quito",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Lima",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "28a20e7f-5f34-497f-891b-21ccdcc34507",
+      "data": [
+        {
+          "text": "Can you tell me the options from "
+        },
+        {
+          "text": "Quito",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Cancun",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f7453128-13f5-4165-b8d0-137f17f6fc02",
+      "data": [
+        {
+          "text": "Tell me the flights options for "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Bogota",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": true
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Madrid",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "32be7b50-7aee-445c-896f-f328977490e0",
+      "data": [
+        {
+          "text": "I wanna know the flights from "
+        },
+        {
+          "text": "Caracas",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Havana",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a1a4dea-7f8b-48de-9ab5-ac5b148ae2ce",
+      "data": [
+        {
+          "text": "Can you give me the flights from "
+        },
+        {
+          "text": "Quito",
+          "alias": "from",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "Caracas",
+          "alias": "to",
+          "meta": "@sys.geo-city",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights",
+      "affectedContexts": [
+        {
+          "name": "flight",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "from",
+          "value": "$from",
+          "prompts": [
+            "From where?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "to",
+          "value": "$to",
+          "prompts": [
+            "Where do you want to go?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            "When do you want to travel?"
+          ],
+          "isList": false
+        },
+        {
+          "dataType": "@sys.number-integer",
+          "name": "page",
+          "value": "#flight.page",
+          "prompts": [],
+          "defaultValue": "1"
+        },
+        {
+          "dataType": "@sys.number-integer",
+          "name": "index",
+          "value": "#flight.index"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I\u0027m having problems to get your information, please let me see whats happened."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
