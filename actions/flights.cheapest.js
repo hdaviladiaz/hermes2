@@ -7,6 +7,7 @@ var execute = function (request) {
     var to = parameters.to;
     var date = parameters.date;
     var text = searchFlightService.getCheaperFlights(from, to, date);
+    parameters.numbers = [1];
     return {
         text: text,
         context: [{
