@@ -8,7 +8,7 @@ var execute = function (request) {
     var date = parameters.date;
     var numbers = parameters.numbers;
     var result = searchFlightService.specificFlights(from, to, date, numbers);
-    parameters.numbers = result.numbers;
+    // parameters.numbers = result.numbers;
     return {
         text: result.text,
         context: [{
