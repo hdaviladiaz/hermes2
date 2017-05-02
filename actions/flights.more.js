@@ -8,6 +8,7 @@ var execute = function (request) {
     var date = parameters.date;
     var result = searchFlightService.moreFlights(from, to, date, parameters.page);
     parameters.page = result.page;
+    parameters.numbers=[];
     return {
         text: result.text,
         context: [{

@@ -35,24 +35,25 @@ var moreFlights = function (index) {
     return flightsResult;
 }
 
-var getFlightTime = function (index) {
+var getFlightTime = function (origin, destination, date, numbers, page) {
     var flightsResult = {};
-    if (index) {
-        flightsResult = this.searchFlights(storedData.to, storedData.from, storedData.date, 1);
-        if (flightsResult && flightsResult.trips.length >= index) {
-            var flight = flightsResult.trips[index - 1];
-            flightsResult.trips = [];
-            flightsResult.trips.push(flight);
-        } else {
-            flightsResult.trips = [];
-        }
-    } else {
-        flightsResult = storedData;
+    if (numbers && numbers.length > 0) {
+        flightsResult = this.searchFlights(destination, destination, date, page);
+        var flights = [];
+        _.each(flightsResult.trips, function (trip, index) {
+            if (numbers.indexOf(index + 1) >= 0) {
+                flights.push(trip);
+            }
+        })
+        flightsResult.trips = flights;
+    }
+    else {
+        flightsResult = this.searchFlights(destination, destination, date, page, 2);
     }
     return flightsResult;
 }
 
-var getCheaperFlights = function (from,to,date) {
+var getCheaperFlights = function (from, to, date) {
     var flights = this.searchFlights(to, from, date, 1);
     flights.trips = _.sortBy(flights.trips, function (trip) { return trip.price; })
     flights.trips = _.first(flights.trips, 1);

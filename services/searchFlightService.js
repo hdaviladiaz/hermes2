@@ -79,30 +79,19 @@ var getCheaperFlights = function (origin, destination, date) {
   return text;
 }
 
-var getFlightTime = function (index) {
+var getFlightTime = function (origin, destination, date, numbers) {
+  var text = "";
+  var flight = searchFlightGestor.getFlightTime(origin, destination, date, numbers);
 
-  var text = "I have no options saved. Please give me the travel information.";
-  if (!searchFlightGestor.isStoredData())
-    return text;
-  var flight = searchFlightGestor.getFlightTime(index);
-  text = "";
-  if (index) {
-    if (flight.trips.length > 0)
-      text += "The " + humanize.ordinal(index) + " option leaves at " + flight.trips[0].departure.time
-        + " and arrives at " + flight.trips[0].arrival.time;
-    else
-      text += "This fligth does not exist."
-  }
-  else {
-    if (flight.trips.length == 1) {
-      text += "The flight leaves at " + flight.trips[0].departure.time
-        + " and arrives at " + flight.trips[0].arrival.time + ". ";
-    } else {
-      _.each(flight.trips, function (trip, index) {
-        text += "The " + humanize.ordinal(index + 1) + " option leaves at " + trip.departure.time
-          + " and arrives at " + trip.arrival.time + ". ";
-      })
-    }
+  if (flight.trips.length == 1) {
+    text += "The flight leaves at " + flight.trips[0].departure.time
+      + " and arrives at " + flight.trips[0].arrival.time + ". ";
+  } else {
+    _.each(flight.trips, function (trip, index) {
+      text += "The " + humanize.ordinal(numbers[index]) + " option leaves at " + trip.departure.time
+        + " and arrives at " + trip.arrival.time + ". ";
+    })
+
   }
 
   return text;

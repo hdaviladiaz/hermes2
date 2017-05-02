@@ -2,19 +2,20 @@ var searchFlightService = require('../services/searchFlightService.js');
 
 
 var execute = function (request) {
-    var parameters = request.result.contexts[0].parameters;
+    var parameters = request.result.parameters || request.contexts[0].parameters;
     var from = parameters.from;
     var to = parameters.to;
     var date = parameters.date;
-    var result = searchFlightService.previousFlights(from, to, date, parameters.page);
-    parameters.page = result.page;
-    parameters.numbers=[];
-   return {
-        text: result.text,
+    var page = parameters.page;
+    var numbers = parameters.numbers;
+    var text = searchFlightService.getFlightTime(from, to, date,page,numbers);
+    return {
+        text: text,
         context: [{
             name: "flight",
             parameters: parameters
-        }, {
+        },
+        {
             name: "flights-followup",
             parameters: parameters
         }]
