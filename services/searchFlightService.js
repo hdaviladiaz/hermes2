@@ -79,11 +79,11 @@ var getCheaperFlights = function (origin, destination, date) {
   return text;
 }
 
-var getFlightTime = function (origin, destination, date, numbers) {
+var getFlightTime = function (origin, destination, date,page, numbers) {
   var text = "";
-  var flight = searchFlightGestor.getFlightTime(origin, destination, date, numbers);
+  var flight = searchFlightGestor.getFlightTime(origin, destination, date,page, numbers);
 
-  if (flight.trips.length == 1) {
+  if (flight.trips.length == 1) { 
     text += "The flight leaves at " + flight.trips[0].departure.time
       + " and arrives at " + flight.trips[0].arrival.time + ". ";
   } else {

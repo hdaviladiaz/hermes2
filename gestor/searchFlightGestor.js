@@ -35,10 +35,10 @@ var moreFlights = function (index) {
     return flightsResult;
 }
 
-var getFlightTime = function (origin, destination, date, numbers, page) {
+var getFlightTime = function (origin, destination, date, page, numbers) {
     var flightsResult = {};
     if (numbers && numbers.length > 0) {
-        flightsResult = this.searchFlights(destination, destination, date, page);
+        flightsResult = this.searchFlights(origin, destination, date, page);
         var flights = [];
         _.each(flightsResult.trips, function (trip, index) {
             if (numbers.indexOf(index + 1) >= 0) {
@@ -48,7 +48,7 @@ var getFlightTime = function (origin, destination, date, numbers, page) {
         flightsResult.trips = flights;
     }
     else {
-        flightsResult = this.searchFlights(destination, destination, date, page, 2);
+        flightsResult = this.searchFlights(origin, destination, date, page, 2);
     }
     return flightsResult;
 }
