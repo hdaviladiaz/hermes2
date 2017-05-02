@@ -39,7 +39,7 @@ var previousFlights = function (origin, destination, date, page) {
   page = parseInt(page);
   var flight = searchFlightGestor.searchFlights(origin, destination, date, page - 1, 2);
   text = "There are no previous flights.";
-  if (flight.trips && flight.trips.length > 0) {
+  if (flight.trips && flight.trips.length > 0 && page > 1) {
     page = page - 1;
     text = "";
     _.each(flight.trips, function (trip, index) {
