@@ -38,7 +38,7 @@ var moreFlights = function (index) {
 var getFlightTime = function (origin, destination, date, page, numbers) {
     var flightsResult = {};
     if (numbers && numbers.length > 0) {
-        flightsResult = this.searchFlights(origin, destination, date, page);
+        flightsResult = this.searchFlights(origin, destination, date, 1);
         var flights = [];
         _.each(flightsResult.trips, function (trip, index) {
             if (numbers.indexOf(index + 1) >= 0) {

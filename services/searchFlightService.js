@@ -82,7 +82,6 @@ var getCheaperFlights = function (origin, destination, date) {
 var getFlightTime = function (origin, destination, date, page, numbers) {
   var text = "";
   var flight = searchFlightGestor.getFlightTime(origin, destination, date, page, numbers);
-
   if (flight.trips.length == 1) {
     text += "The flight leaves at " + flight.trips[0].departure.time
       + " and arrives at " + flight.trips[0].arrival.time + ". ";
