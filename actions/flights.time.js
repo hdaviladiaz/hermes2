@@ -2,7 +2,7 @@ var searchFlightService = require('../services/searchFlightService.js');
 
 
 var execute = function (request) {
-    var parameters = request.contexts[0].parameters;
+    var parameters = request.result.contexts[0].parameters;
     var from = parameters.from;
     var to = parameters.to;
     var date = parameters.date;
