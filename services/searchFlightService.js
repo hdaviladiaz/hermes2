@@ -88,7 +88,7 @@ var getFlightTime = function (origin, destination, date, numbers) {
       + " and arrives at " + flight.trips[0].arrival.time + ". ";
   } else {
     _.each(flight.trips, function (trip, index) {
-      text += "The " + humanize.ordinal(numbers[index]) + " option leaves at " + trip.departure.time
+      text += "The " + humanize.ordinal(index +1) + " option leaves at " + trip.departure.time
         + " and arrives at " + trip.arrival.time + ". ";
     })
 
