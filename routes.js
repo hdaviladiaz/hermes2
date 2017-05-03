@@ -9,12 +9,11 @@ module.exports = function(app){
   app.use(bodyParser.json());
 
   app.get('/', function (request, response) {
-    setLocale(response, 'es', true);
     response.end('Wellcome to HERMES Assistant API ' + response.__('Hello i18n'));
   });
 
   app.post('/', function (request, response) {
-    // setLocale(response, request.body.lang, true);
+    setLocale(response, request.body.lang, true);
     //setLocale(response, 'request.body.lang', true);
     action_manager.processRequest(request.body, response);
   });
