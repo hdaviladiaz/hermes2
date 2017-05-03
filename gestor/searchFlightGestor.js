@@ -59,6 +59,20 @@ var getCheaperFlights = function (from, to, date) {
     flights.trips = _.first(flights.trips, 1);
     return flights;
 }
+
+var bookFlight = function (from, to, date, numbers, name, lastname, passport) {
+    if (!numbers || numbers.length != 1) {
+        return false;
+    }
+    var flights = this.searchFlights(to, from, date, 1);
+    var booking = {};
+    _.each(flights.trips, function (trip, index) {
+        if (numbers.indexOf(index + 1) >= 0) {
+            booking = trip;
+        }
+    })
+    return booking;
+}
 var isStoredData = function () {
     return storedData && storedData.hasState();
 }

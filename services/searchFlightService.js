@@ -96,6 +96,15 @@ var getFlightTime = function (origin, destination, date, page, numbers) {
   return text;
 }
 
+var bookFlight = function (from, to, date, numbers, name, lastname, passport) {
+  var book = searchFlightGestor.bookFlight(from, to, date, numbers, name, lastname, passport);
+  if (!book) {
+    return "What flight do you want to reserve?";
+  }
+  return "The flight from " + origin + " to " + destination + " with flight id " + book.flightId + " was reserved. ";
+}
+
+exports.bookFlight = bookFlight;
 exports.specificFlights = specificFlights;
 exports.previousFlights = previousFlights;
 exports.getFlightTime = getFlightTime;
