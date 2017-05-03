@@ -102,7 +102,7 @@ var bookFlight = function (from, to, date, numbers, name, lastname, passport) {
   var text = __('reserve.question');
   if (book) {
     text = __('prepositions.the') + " " + __('flights.flight') + " " + __('prepositions.from') + " " + from + " " + __('prepositions.to') + " "
-      + " " + to + __('prepositions.with') + " " + __('flights.flight') + " " + __('prepositions.id') + " " + book.flightId + " " + __('reserve.was_reserved')
+      + to + __('prepositions.with') + " " + __('flights.flight') + " " + __('prepositions.id') + " " + book.flightId + " " + __('reserve.was_reserved')
       + ". Do you want to receive an email with the reserve information?";
   }
   return {
