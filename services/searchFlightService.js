@@ -99,12 +99,14 @@ var getFlightTime = function (origin, destination, date, page, numbers) {
 
 var bookFlight = function (from, to, date, numbers, name, lastname, passport) {
   var book = searchFlightGestor.bookFlight(from, to, date, numbers, name, lastname, passport);
-  if (!book) {
-    return __('reserve.question');
+  var text = __('reserve.question');
+  if (book) {
+    text = "The flight from " + from + " to " + to + " with flight id " + book.flightId + " was reserved. ";
   }
-  return __('prepositions.the') + " " + __('flights.flight') + " " + __('prepositions.from')
-  + origin + " " + __('prepositions.to') + " " + destination + " " + __('prepositions.with') + " " + __('flights.flight') + " " + __('prepositions.id')
-   + " " + book.flightId + " " + __('reserve.was_recerved') + ".";
+  return {
+    text: text,
+    booked: book
+  }
 }
 
 exports.bookFlight = bookFlight;
