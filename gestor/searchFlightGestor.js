@@ -77,6 +77,7 @@ var isStoredData = function () {
     return storedData && storedData.hasState();
 }
 
+exports.bookFlight=bookFlight;
 exports.getFlightTime = getFlightTime;
 exports.isStoredData = isStoredData;
 exports.getCheaperFlights = getCheaperFlights;

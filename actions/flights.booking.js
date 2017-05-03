@@ -13,9 +13,11 @@ var execute = function (request) {
     var passport = request.result.parameters.passport;
 
     var result = searchFlightService.bookFlight(from, to, date, numbers, name, lastname, passport);
-    return {
+    var response = {
         text: result.text,
-        context: [{
+    }
+    if (!response.booked) {
+        response.context = [{
             name: "flight",
             parameters: parameters
         }, {
@@ -23,6 +25,7 @@ var execute = function (request) {
             parameters: parameters
         }]
     }
+    return response;
 }
 
 exports.execute = execute;
