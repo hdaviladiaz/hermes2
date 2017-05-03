@@ -7,16 +7,15 @@ var execute = function (request) {
     var to = parameters.to;
     var date = parameters.date;
     var numbers = parameters.numbers;
-    if (!numbers || numbers.length != 1) {
+    var name = parameters.name;
+    var lastname = parameters.lastname;
+    var passport = parameters.passport;
+    if (!name || !lastname || !passport) {
         var event = searchFlightService.createEventRequest("flights.booking", parameters);
         return {
             event: event
         }
     }
-    var name = request.result.parameters.name;
-    var lastname = request.result.parameters.lastname;
-    var passport = request.result.parameters.passport;
-
     var result = searchFlightService.bookFlight(from, to, date, numbers, name, lastname, passport);
     var response = {
         text: result.text,
