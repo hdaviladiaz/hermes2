@@ -4,7 +4,7 @@
 		"flight": "vuelo",
 		"flights": "vuelos",
 		"empty": "No hay m\u00E1s vuelos.",
-		"found": "Encontre en LATAM ",
+		"found": "Encontr\u00E9 en LATAM ",
 		"nomore": "No hay \u00E1 vuelos.",
 		"noprevious": "No hay m\u00E1s previos vuelos.",
 		"notexists": "No existen vuelos",
@@ -25,7 +25,7 @@
 	},
 	"reserve": {
 		"question": "\u00BFQu\u00E9 vuelo quieres reservar?",
-		"was_recerved": "fue reservado"
+		"was_reserved": "fue reservado"
 	},
 	"marks": {
 		"dot": ".",

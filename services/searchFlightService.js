@@ -101,7 +101,8 @@ var bookFlight = function (from, to, date, numbers, name, lastname, passport) {
   var book = searchFlightGestor.bookFlight(from, to, date, numbers, name, lastname, passport);
   var text = __('reserve.question');
   if (book) {
-    text = "The flight from " + from + " to " + to + " with flight id " + book.flightId + " was reserved. ";
+    text = __('prepositions.the') + " " + __('flights.flight') + " " + __('prepositions.from') + " " + from + " " + __('prepositions.to') + " "
+    + to + __('prepositions.with') + " " + __('flights.flight') + " " + __('prepositions.id') + " "+ book.flightId + __('reserve.was_reserved');
   }
   return {
     text: text,

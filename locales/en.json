@@ -4,7 +4,7 @@
 		"flight": "flight",
 		"flights": "flights",
 		"empty": "There is no flights",
-		"found": "I found LATAM ",
+		"found": "I found in LATAM ",
 		"nomore": "There are no more flights",
 		"noprevious": "There are no previous flights.",
 		"notexists": "flights do not exists",
@@ -14,10 +14,6 @@
 		"leaves_at": "option leaves at",
 		"id": "ID"
 	},
-	"reserve": {
-		"question":"What flight do you want to reserve",
-		"was_recerved":"was reserved"
-	},
 	"prepositions": {
 		"the": "The",
 		"for": "for",
@@ -26,6 +22,10 @@
 		"to": "to",
 		"with": "with",
 		"id": "ID"
+	},
+	"reserve": {
+		"question":"What flight do you want to reserve",
+		"was_reserved":"was reserved"
 	},
 	"marks": {
 		"dot": ".",
