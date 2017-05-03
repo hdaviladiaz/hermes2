@@ -2,32 +2,32 @@ var _ = require('underscore');
 var humanize = require('humanize');
 var moment = require('moment');
 var searchFlightGestor = require('../gestor/searchFlightGestor.js');
+var i18n = require('../i18n');
 
 var searchFlights = function (origin, destination, date) {
   var momentDate = moment(date, "YYYY-MM-DD");
   var flight = searchFlightGestor.searchFlights(origin, destination, date, 1, 2);
-  var text = "There are no flights.";
+  var text = __('flights.empty');
   if (!flight || !flight.trips || flight.trips.length == 0) {
     return text
   }
-  text = " I found in LATAM " + flight.pagination.count + " flights for "
-    + humanize.naturalDay(momentDate.unix()) + " from " + origin + " to " + destination + ". ";
+  text = __('flights.found') + " " + flight.pagination.count + " " + __('flights.flights') + " " + __('prepositions.for_a') + " "
+    + humanize.naturalDay(momentDate.unix()) + " " + __('prepositions.from') + " " + origin + " " + __('prepositions.to') + " " + destination + ". ";
   _.each(flight.trips, function (trip, index) {
-    text += humanize.ordinal(index + 1) + " for " + trip.price + " " + flight.currency + ". ";
+    text += humanize.ordinal(index + 1) + " " + __('prepositions.for') + " " + trip.price + " " + flight.currency + ". ";
   })
   return text;
 }
 
-
 var moreFlights = function (origin, destination, date, page) {
   page = parseInt(page);
   var flight = searchFlightGestor.searchFlights(origin, destination, date, page + 1, 2);
-  text = "There are no more flights.";
+  var text = __('flights.nomore');
   if (flight.trips && flight.trips.length > 0) {
     page = page + 1;
     text = "";
     _.each(flight.trips, function (trip, index) {
-      text += humanize.ordinal(index + 1 + (flight.pagination.page - 1) * 2) + " for " + trip.price + " " + flight.currency + ". ";
+      text += humanize.ordinal(index + 1 + (flight.pagination.page - 1) * 2) + " " + __('prepositions.for') + " " + trip.price + " " + flight.currency + ". ";
     })
   }
   return {
@@ -35,15 +35,16 @@ var moreFlights = function (origin, destination, date, page) {
     page: page
   };
 }
+
 var previousFlights = function (origin, destination, date, page) {
   page = parseInt(page);
   var flight = searchFlightGestor.searchFlights(origin, destination, date, page - 1, 2);
-  text = "There are no previous flights.";
+  text = __('flights.noprevious');
   if (flight.trips && flight.trips.length > 0 && page > 1) {
     page = page - 1;
     text = "";
     _.each(flight.trips, function (trip, index) {
-      text += humanize.ordinal(index + 1 + (flight.pagination.page - 1) * 2) + " for " + trip.price + " " + flight.currency + ". ";
+      text += humanize.ordinal(index + 1 + (flight.pagination.page - 1) * 2) + " " + __('prepositions.for') + " " + trip.price + " " + flight.currency + ". ";
     })
   }
   return {
@@ -53,12 +54,12 @@ var previousFlights = function (origin, destination, date, page) {
 }
 var specificFlights = function (origin, destination, date, numbers) {
   var flight = searchFlightGestor.searchFlights(origin, destination, date, 1);
-  text = "The flights do not exists.";
+  text = __('flights.notexists');
   if (flight.trips && flight.trips.length > 0) {
     text = "";
     _.each(flight.trips, function (trip, index) {
       if (numbers.indexOf(index + 1) >= 0) {
-        text += humanize.ordinal(index + 1) + " for " + trip.price + " " + flight.currency + ". ";
+        text += humanize.ordinal(index + 1) + " " + __('prepositions.for') + " " + trip.price + " " + flight.currency + ". ";
       }
     })
   } else {
@@ -74,7 +75,7 @@ var getCheaperFlights = function (origin, destination, date) {
   var flights = searchFlightGestor.getCheaperFlights(origin, destination, date);
   var text = "";
   var momentDate = moment(flights.trips[0].departure.date, "YYYY-MM-DD");
-  text = "The cheapest flight " + /*humanize.naturalDay(momentDate.unix()) + */" has a cost of "
+  text = __('flights.cheapest'); + " " + /*humanize.naturalDay(momentDate.unix()) + */" " + __('phrases.has_a_cost_of') + " "
     + flights.trips[0].price + " " + flights.currency + ".";
   return text;
 }
@@ -83,12 +84,12 @@ var getFlightTime = function (origin, destination, date, page, numbers) {
   var text = "";
   var flight = searchFlightGestor.getFlightTime(origin, destination, date, page, numbers);
   if (flight.trips.length == 1) {
-    text += "The flight leaves at " + flight.trips[0].departure.time
-      + " and arrives at " + flight.trips[0].arrival.time + ". ";
+    text += __('flights.cheapest'); + " " + flight.trips[0].departure.time
+      + " " + __('flights.arrives_and') + " " + flight.trips[0].arrival.time + ". ";
   } else {
     _.each(flight.trips, function (trip, index) {
-      text += "The " + humanize.ordinal(index + 1) + " option leaves at " + trip.departure.time
-        + " and arrives at " + trip.arrival.time + ". ";
+      text += __('prepositions.the') + " " + humanize.ordinal(index + 1) + " " + __('flights.arrives_at') + " " + trip.departure.time
+        + " " + __('flights.arrives_and') + " " + trip.arrival.time + ". ";
     })
 
   }
@@ -98,11 +99,11 @@ var getFlightTime = function (origin, destination, date, page, numbers) {
 
 var bookFlight = function (from, to, date, numbers, name, lastname, passport) {
   var book = searchFlightGestor.bookFlight(from, to, date, numbers, name, lastname, passport);
-  var text = "What flight do you want to reserve?";
+  var text = __('reserve.question');
   if (book) {
-    text = "The flight from " + from + " to " + to 
-    + " with flight id " + book.flightId 
-    + " was reserved. Do you want to receive an email with the reserve information?";
+    text = __('prepositions.the') + " " + __('flights.flight') + " " + __('prepositions.from') + " " + from + " " + __('prepositions.to') + " "
+      + " " + to + __('prepositions.with') + " " + __('flights.flight') + " " + __('prepositions.id') + " " + book.flightId + " " + __('reserve.was_reserved')
+      + ". Do you want to receive an email with the reserve information?";
   }
   return {
     text: text,

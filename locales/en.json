@@ -1,0 +1,38 @@
+{
+	"Hello i18n": "Hello i18n",
+	"flights": {
+		"flight": "flight",
+		"flights": "flights",
+		"empty": "There is no flights",
+		"found": "I found in LATAM ",
+		"nomore": "There are no more flights",
+		"noprevious": "There are no previous flights.",
+		"notexists": "flights do not exists",
+		"cheapest": "The cheapest flight",
+		"leaves": "leaves at",
+		"arrives_and": "and arrives and",
+		"leaves_at": "option leaves at",
+		"id": "ID"
+	},
+	"prepositions": {
+		"the": "The",
+		"for": "for",
+		"for_a": "for",
+		"from": "from",
+		"to": "to",
+		"with": "with",
+		"id": "ID"
+	},
+	"reserve": {
+		"question":"What flight do you want to reserve",
+		"was_reserved":"was reserved"
+	},
+	"marks": {
+		"dot": ".",
+		"question": "?",
+		"comma": ","
+	},
+	"phrases": {
+		"has_a_cost_of":"has a cost of"
+	}
+}
