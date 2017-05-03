@@ -12,7 +12,7 @@ var execute = function (request) {
     var name = parameters.name;
     var lastname = parameters.lastname;
     var passport = parameters.passport;
-
+    
     if (!name || !lastname || !passport) {
         var event = flightUserInfo.createEventRequest("flights.booking", parameters);
         return event;

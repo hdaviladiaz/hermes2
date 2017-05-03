@@ -20,9 +20,13 @@ var createEventRequest = function (actionName, parameters) {
     if (parameters && parameters.passport)
         event.data.passport = parameters.passport;
     return {
-        event: event
+        event: event,
+        contextOut: [{
+            name: "Flights-Booking-followup",
+            parameters: []
+        }]
     }
 }
 
-exports.createEventRequest=createEventRequest;
+exports.createEventRequest = createEventRequest;
 exports.execute = execute;
