@@ -1,8 +1,6 @@
-var searchFlightService = require('../services/searchFlightService.js');
-
 
 var execute = function (request) {
-    var parameters = request.result.contexts[0].parameters;
+    var parameters = request.result.parameters;
     var email = parameters.email;
     return {
         text: "Ok, email was sended to " + email

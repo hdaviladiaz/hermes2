@@ -100,7 +100,7 @@ var bookFlight = function (from, to, date, numbers, name, lastname, passport) {
   var book = searchFlightGestor.bookFlight(from, to, date, numbers, name, lastname, passport);
   var text = "What flight do you want to reserve?";
   if (book) {
-    text = "The flight from " + from + " to " + to + " with flight id " + book.flightId + " was reserved. ";
+    text = "The flight from " + from + " to " + to + " with flight id " + book.flightId + " was reserved. Do you want to receive an email with the reserve information?";
   }
   return {
     text: text,
