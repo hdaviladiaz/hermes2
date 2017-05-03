@@ -89,7 +89,6 @@ describe('Flight gestor searching', function () {
   it('should return second flights', function () {
     var index=2;
     var secondFlight = searchFlightGestor.moreFlights(index);
-    console.log(secondFlight);
     expect(secondFlight.trips).to.have.lengthOf(1);
   });
 
