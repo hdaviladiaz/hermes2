@@ -12,9 +12,9 @@ var searchFlights = function (origin, destination, date) {
     return text
   }
   text = __('flights.found') + " " + flight.pagination.count + " " + __('flights.flights') + " " + __('prepositions.for_a') + " "
-    + humanize.naturalDay(momentDate.unix()) + " " + __('prepositions.from') + " " + origin + " " + __('prepositions.to') + " " + destination + ". ";
+    + translateDay(humanize.naturalDay(momentDate.unix())) + " " + __('prepositions.from') + " " + origin + " " + __('prepositions.to') + " " + destination + ". ";
   _.each(flight.trips, function (trip, index) {
-    text += humanize.ordinal(index + 1) + " " + __('prepositions.for') + " " + trip.price + " " + flight.currency + ". ";
+    text += __('prepositions.the_a') + " " + __('prepositions.option') + " " + (index + 1) + " " + __('prepositions.for') + " " + trip.price + " " + flight.currency + ". ";
   })
   return text;
 }
@@ -27,7 +27,7 @@ var moreFlights = function (origin, destination, date, page) {
     page = page + 1;
     text = "";
     _.each(flight.trips, function (trip, index) {
-      text += humanize.ordinal(index + 1 + (flight.pagination.page - 1) * 2) + " " + __('prepositions.for') + " " + trip.price + " " + flight.currency + ". ";
+      text += __('prepositions.the_a') + " " + __('prepositions.option') + " " + (index + 1 + (flight.pagination.page - 1) * 2) + " " + __('prepositions.for') + " " + trip.price + " " + flight.currency + ". ";
     })
   }
   return {
@@ -44,7 +44,7 @@ var previousFlights = function (origin, destination, date, page) {
     page = page - 1;
     text = "";
     _.each(flight.trips, function (trip, index) {
-      text += humanize.ordinal(index + 1 + (flight.pagination.page - 1) * 2) + " " + __('prepositions.for') + " " + trip.price + " " + flight.currency + ". ";
+      text += __('prepositions.the_a') + " " + __('prepositions.option') + " " + (index + 1 + (flight.pagination.page - 1) * 2) + " " + __('prepositions.for') + " " + trip.price + " " + flight.currency + ". ";
     })
   }
   return {
@@ -59,7 +59,7 @@ var specificFlights = function (origin, destination, date, numbers) {
     text = "";
     _.each(flight.trips, function (trip, index) {
       if (numbers.indexOf(index + 1) >= 0) {
-        text += humanize.ordinal(index + 1) + " " + __('prepositions.for') + " " + trip.price + " " + flight.currency + ". ";
+        text += __('prepositions.the_a') + " " + __('prepositions.option') + " " + (index + 1) + " " + __('prepositions.for') + " " + trip.price + " " + flight.currency + ". ";
       }
     })
   } else {
@@ -88,7 +88,7 @@ var getFlightTime = function (origin, destination, date, page, numbers) {
       + " " + __('flights.arrives_and') + " " + flight.trips[0].arrival.time + ". ";
   } else {
     _.each(flight.trips, function (trip, index) {
-      text += __('prepositions.the') + " " + humanize.ordinal(index + 1) + " " + __('flights.arrives_at') + " " + trip.departure.time
+      text += __('prepositions.the_a') + " " + __('prepositions.option') + " " + (index + 1) + " " + __('flights.arrives_at') + " " + trip.departure.time
         + " " + __('flights.arrives_and') + " " + trip.arrival.time + ". ";
     })
 
@@ -109,6 +109,11 @@ var bookFlight = function (from, to, date, numbers, name, lastname, passport) {
     text: text,
     booked: book
   }
+
+}
+
+function translateDay(day){
+   return __(day) ? __(day) : day;
 }
 
 exports.bookFlight = bookFlight;

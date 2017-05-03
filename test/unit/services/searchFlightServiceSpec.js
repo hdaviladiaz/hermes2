@@ -6,7 +6,7 @@ var searchFlightService = require('../../../services/searchFlightService.js');
 var i18n = require('../../../i18n');
 var expectedOrigin = 'Quito';
 var expectedDestination = 'Guayaquil';
-var expectedDepartureDate = moment('2018-01-22',patternFormat).format();
+var expectedDepartureDate = moment('2017-05-04',patternFormat).format();
 
 describe('Flight service searching', function() {
    it('should change dates of the trips with near suggested dates in the JSON response', function() {

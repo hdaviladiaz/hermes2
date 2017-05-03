@@ -16,12 +16,14 @@
 	},
 	"prepositions": {
 		"the": "The",
+		"the_a": "The",
 		"for": "for",
 		"for_a": "for",
 		"from": "from",
 		"to": "to",
 		"with": "with",
-		"id": "ID"
+		"id": "ID",
+		"option": "option"
 	},
 	"reserve": {
 		"question":"What flight do you want to reserve",
@@ -33,6 +35,9 @@
 		"comma": ","
 	},
 	"phrases": {
-		"has_a_cost_of":"has a cost of"
-	}
+		"has_a_cost_of": "has a cost of"
+	},
+	"tomorrow": "tomorrow",
+	"today": "today",
+	"yesterday": "yesterday"
 }
