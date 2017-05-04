@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://demo.astemplates.com/html-templates/001024/ -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Pioneer - Consulting Services</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="https://demo.astemplates.com/html-templates/001024/favicon.png">
+
+    <!-- Bootstrap css -->
+    <link href="./preview_files/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="./preview_files/bootstrap-theme.css" rel="stylesheet">
+    <!-- Vegas - Fullscreen Backgrounds -->
+    <link href="./preview_files/jquery.vegas.min.css" rel="stylesheet">
+    <!-- OWL carousel css -->
+    <link href="./preview_files/owl.carousel.css" rel="stylesheet">
+    <link href="./preview_files/owl.theme.css" rel="stylesheet">
+    <link href="./preview_files/owl.transitions.css" rel="stylesheet">
+    <!-- Intro animations -->
+    <link href="./preview_files/animate.css" rel="stylesheet">
+    <!-- Font awesome -->
+    <link href="./preview_files/font-awesome.min.css" rel="stylesheet">
+    <!-- Lightbox -->
+    <link href="./preview_files/lightbox.css" rel="stylesheet">
+
+    <!-- styles for this template -->
+    <link href="./preview_files/theme.styles.css" rel="stylesheet">
+
+    <!-- place your extra custom styles in this file -->
+    <link href="./preview_files/theme.custom.css" rel="stylesheet">
+    <link href="./preview_files/mobile.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <style id="fit-vids-style">
+        .fluid-width-video-wrapper {
+            width: 100%;
+            position: relative;
+            padding: 0;
+        }
+        
+        .fluid-width-video-wrapper iframe,
+        .fluid-width-video-wrapper object,
+        .fluid-width-video-wrapper embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<!-- data-default-background-img attr is required for sections (.section-wrapper) below that have no custom background defined, 
+	 and when background change is disabled for mobile -->
+<!-- data-overlay: "true" - semi-transparent black overlay on top of bg enabled, "false" - disabled -->
+<!-- data-overlay-opacity: set the opacity/transparency of the black overlay -->
+
+<body data-default-background-img="assets/images/backgrounds/bg-1.jpg" data-overlay="true" data-overlay-opacity="0.35">
+    <div class="vegas-overlay" style="margin: 0px; padding: 0px; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; background-image: url(&quot;assets/images/bg.overlay.png&quot;); opacity: 0.35;"></div><img class="vegas-background" src="./preview_files/bg-6.jpg" style="position: fixed; left: -25.0775px; top: 0px; width: 1490.15px; height: 782px; bottom: auto; right: auto;">
+
+    <!-- Outer Container ***************************************************************************************  -->
+    <div id="outer-container">
+
+        <!-- Left Sidebar **************************************************************************************  -->
+        <section id="left-sidebar">
+
+            <!--  Logo  -->
+            <!--  change the img src to your logo  -->
+            <div class="logo">
+                <a href="https://demo.astemplates.com/html-templates/001024/#intro" class="link-scroll">
+                    <img src="./preview_files/logo.png" alt="Beatrix Salon">
+                </a>
+            </div>
+            <!--  END: Logo  -->
+
+            <!-- Main Menu  -->
+
+            <!-- Each menu item links to a section (<article class="section-wrapper...") in the main content below.
+                 - set each <li> id to this format: "menu-item-[the id of the .section-wrapper to link to]".
+                 - set href of each <a> to the id of the .section-w rapper to link to -->
+            <!-- Menu Icon for smaller viewports -->
+
+            <div id="mobile-menu-icon" class="visible-xs" onclick="toggle_main_menu();">
+                <span class="glyphicon glyphicon-th"></span>
+            </div>
+
+            <ul id="main-menu">
+                <li id="menu-item-text" class="menu-item scroll"><a href="https://demo.astemplates.com/html-templates/001024/#text">ABOUT</a></li>
+                <li id="menu-item-carousel" class="menu-item scroll"><a href="https://demo.astemplates.com/html-templates/001024/#carousel">PROJECTS</a></li>
+                <li id="menu-item-grid" class="menu-item scroll"><a href="https://demo.astemplates.com/html-templates/001024/#grid">SERVICES</a></li>
+                <li id="menu-item-featured" class="menu-item scroll"><a href="https://demo.astemplates.com/html-templates/001024/#featured">FEATURED</a></li>
+                <li id="menu-item-tabs" class="menu-item scroll active"><a href="https://demo.astemplates.com/html-templates/001024/#tabs">HISTORY</a></li>
+                <li id="menu-item-contact" class="menu-item scroll"><a href="https://demo.astemplates.com/html-templates/001024/#contact">CONTACTS</a></li>
+                <!-- to include a link which doesn't scroll to a section inside the page, remove the .scroll class from the <li> - example below -->
+                <!-- <li id="menu-item-alt-page" class="menu-item"><a href="http://www.link.com">Outer Link</a></li> -->
+            </ul>
+            <!--END:  Main Menu  -->
+
+        </section>
+
+        <!-- END: Left Sidebar *********************************************************************************  -->
+
+        <!-- Main Content **************************************************************************************  -->
+        <!-- all the website sections are contained in the <article> tag with class ".section-wrapper" and a unique id.
+               - to edit / remove / create website sections, you have to handle the content contained in these <article> tags -->
+        <section id="main-content" class="clearfix">
+
+            <!-- SECTION: Intro Text ---------------------------------------------------------------------------------------- -->
+            <!-- This section should contain heading and intro paragraph. It can also include links to other sections -->
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+
+            <article id="intro" class="section-wrapper clearfix" data-custom-background-img="assets/images/backgrounds/bg-1.jpg">
+                <div class="content-wrapper clearfix wow fadeInDown animated" data-wow-delay="0.3s" style="position: absolute; visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                    <div class="col-sm-10 col-md-9 pull-right">
+
+                        <!-- Start: Section content to edit -->
+
+                        <section class="feature-text">
+                            <h1 class="section-title">Onepage HTML 5 Bootstrap Template designed for Consulting Company</h1>
+                            <p>Pioneer Consulting is a fully responsive HTML website template based on the Bootstrap Framework,
+                                it is designed to be ideal for sites with a small content.</p>
+
+                            <!-- to add scrolling effects to links linking to same page section, add .link-scroll class -->
+                            <p><a href="https://demo.astemplates.com/html-templates/001024/#text" class="link-scroll btn btn-outline-inverse btn-lg">more</a></p>
+                        </section>
+
+                        <!-- End: Section content to edit -->
+
+                    </div>
+                </div>
+            </article>
+            <!-- END SECTION: Intro Text ------------------------------------------------------------------------------------ -->
+
+
+            <!-- SECTION: Content Text -------------------------------------------------------------------------------------- -->
+            <!-- This section should contain generic content (text, image, etc) -->
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="text" class="section-wrapper clearfix" data-custom-background-img="assets/images/backgrounds/bg-2.jpg">
+                <div class="content-wrapper clearfix" style="position: absolute;">
+                    <div class="col-sm-10 col-md-9 pull-right">
+
+                        <!-- Start: Section content to edit -->
+
+                        <h2 class="section-title">Our Philosophy</h2>
+                        <div class="clearfix"></div>
+
+                        <p class="feature-paragraph">
+                            <img data-img-src="assets/images/about/about-1.png" class="pull-right bordered" alt="About Us" src="./preview_files/about-1.png">                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar tempus tortor ut convallis.
+                            Duis hendrerit aliquam eros, eu commodo nulla porta.
+                            <a href="https://demo.astemplates.com/html-templates/001024/#carousel">Curabitur eu lobortis dui</a>,
+                            eu lobortis dui. In dictum lectus non metus pellentesque pellentesque. Donec ac sem in magna.
+                        </p>
+
+                        <h4> Fusce faucibus dictum justo.</h4>
+                        <p>
+                            Ut ut sapien ut diam molestie tempus et at leo. Nullam sollicitudin non ipsum sit amet iaculis. Nullam at auctor velit. Vestibulum
+                            pretium diam tincidunt, lobortis quam nec, posuere tellus. Pellentesque vitae sapien leo. Donec
+                            iaculis velit ex, in cursus ex pulvinar rutrum. Sed pharetra rhoncus eleifend sit amet id massa.
+                            In hendrerit, purus sed ultrices elementum.
+                        </p>
+
+                        <!-- to make a popup/modal link add an onClick function call to the function: 
+                             - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                        <p><a href="https://demo.astemplates.com/html-templates/001024/" onclick="populate_and_open_modal(event, &#39;modal-content-1&#39;);"
+                                class="btn btn-outline-inverse btn-sm">read more</a></p>
+
+                        <!-- content which will be shown in the popup/modal when clicking on the above link 
+                             - it is important to set a unique id -->
+                        <div class="modal content-to-populate-in-modal" id="modal-content-1">
+                            <h2>Lorem Ipsum</h2>
+                            <p>
+                                <img data-img-src="assets/images/about/about-3.png" class="bordered pull-right" alt="About Us" src="./preview_files/about-3.png">                                Cras sed urna dignissim, molestie diam sit amet, sollicitudin lorem. Sed consequat felis
+                                id leo imperdiet, sed interdum nulla dignissim. Proin aliquet bibendum diam porttitor tempor.
+                                Quisque sed felis et turpis vulputate posuere. Etiam tincidunt dui massa, quis sodales velit
+                                egestas in. Fusce eget odio odio. Curabitur congue sapien ante, ac ullamcorper elit lacinia
+                                consectetur.
+                            </p>
+
+                            <p>
+                                Aenean at ligula mauris. Quisque viverra nisi lorem, quis facilisis velit dictum nec. Cras id ante a nulla feugiat varius.
+                            </p>
+
+                            <h3>Nulla euismod maximus erat</h3>
+                            <p>
+                                <img data-img-src="assets/images/about/about-2.png" class="bordered pull-left" alt="About Us" src="./preview_files/about-2.png">                                Sed consectetur sit amet sapien tristique efficitur. Curabitur tellus sapien, varius in lorem
+                                quis, rutrum rutrum nunc. Curabitur tortor quam, posuere sit amet elit ut, euismod pellentesque
+                                arcu. Fusce quis ultricies sapien. Donec tincidunt non est sit amet aliquet.
+                            </p>
+                            <p>
+                                Nulla fringilla, mi ut consectetur lobortis, nulla lorem congue nunc, in venenatis nisl turpis a metus. In et accumsan dolor.
+                                Duis ac mi tempus risus rhoncus interdum. In gravida nibh lobortis turpis ullamcorper, id
+                                elementum nisi maximus. Sed vel finibus dolor. Proin ut tempor neque.
+                            </p>
+                        </div>
+
+                        <!-- End: Section content to edit -->
+
+                    </div>
+                </div>
+            </article>
+            <!-- END SECTION: Content Text ---------------------------------------------------------------------------------- -->
+
+
+            <!-- SECTION: Carousel ------------------------------------------------------------------------------------------ -->
+            <!-- This section should contain slides with an icon, text, and an optional button -->
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="carousel" class="section-wrapper clearfix" data-custom-background-img="assets/images/backgrounds/bg-3.jpg">
+                <div class="content-wrapper clearfix" style="position: absolute; height: auto;">
+
+                    <!-- Start: Section content to edit -->
+
+                    <!-- the carousel is initialised in the initialise-functions.js file, using the id of the container .carousel below -->
+                    <div id="features-carousel" class="carousel slide with-title-indicators max-height" data-height-percent="auto" data-ride="carousel">
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+
+                            <!-- Carousel Slide 1 ------------------------------------------------------------------------------ -->
+                            <div class="item" style="">
+                                <div class="carousel-text-content" style="height: 100%;">
+                                    <!-- start: slide content to edit -->
+
+                                    <img src="./preview_files/product-ico-1.png" class="icon bordered" alt="Product 1">
+                                    <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                                    <!-- <span class="icon glyphicon glyphicon-record"></span> -->
+
+                                    <h2 class="title">Lorem Ipsum</h2>
+                                    <p>
+                                        Aenean pellentesque congue nibh, vel gravida lacus vulputate ut. Praesent sit amet urna porta ipsum volutpat condimentum
+                                        vitae adipiscing est. Praesent vestibulum nec sapien ac elementum.
+                                    </p>
+
+                                    <!-- to make a popup/modal link add an onClick function call to the function: 
+                                    - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                                    <p>
+                                        <a href="https://demo.astemplates.com/html-templates/001024/" onclick="populate_and_open_modal(event, &#39;modal-content-2&#39;);"
+                                            class="btn btn-outline-inverse btn-sm">read more</a>
+                                    </p>
+
+                                    <!-- content which will be shown in the popup/modal when clicking on the above link 
+                                    - it is important to set a unique id -->
+                                    <div class="modal content-to-populate-in-modal" id="modal-content-2">
+                                        <h2>Lorem Ipsum</h2>
+                                        <p>
+                                            <img data-img-src="assets/images/carousel/product-1.png" class="bordered pull-right" alt="Product 1" src="./preview_files/product-1.png">                                            Nam mi purus, elementum interdum turpis id, aliquam mattis mi. Aenean pellentesque
+                                            congue nibh, vel gravida lacus vulputate ut. Praesent sit amet urna porta ipsum
+                                            volutpat.
+                                        </p>
+                                        <p>
+                                            Praesent vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla. Morbi volutpat vel ex in egestas. Aliquam
+                                            orci mauris, hendrerit quis dolor eu, fermentum vehicula quam. Donec finibus
+                                            dapibus viverra. Morbi sed convallis est. Donec iaculis velit ex, in cursus ex
+                                            pulvinar rutrum. Sed pharetra sagittis enim at laoreet. Nullam sodales bibendum
+                                            dolor.
+                                        </p>
+                                        <p>
+                                            Mauris ac pulvinar diam, scelerisque dapibus enim. Nam mi purus, elementum interdum turpis id, aliquam mattis mi. Praesent
+                                            vestibulum nec sapien ac elementum. Etiam scelerisque.
+                                        </p>
+                                    </div>
+                                    <!-- end: slide content to edit -->
+                                </div>
+                            </div>
+                            <!-- END: Carousel Slide 1 ------------------------------------------------------------------------- -->
+
+                            <!-- Carousel Slide 2 ------------------------------------------------------------------------------ -->
+                            <div class="item" style="">
+                                <div class="carousel-text-content" style="height: 100%;">
+                                    <!-- start: slide content to edit -->
+
+                                    <img src="./preview_files/product-ico-2.png" class="icon bordered" alt="Product 2">
+                                    <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                                    <!-- <span class="icon glyphicon glyphicon-stats"></span> -->
+
+                                    <h2 class="title">Dolor sit amet</h2>
+                                    <p>
+                                        Morbi porttitor pharetra libero et semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu
+                                        ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                    </p>
+
+                                    <!-- to make a popup/modal link add an onClick function call to the function: 
+                                    - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                                    <p>
+                                        <a href="https://demo.astemplates.com/html-templates/001024/" onclick="populate_and_open_modal(event, &#39;modal-content-3&#39;);"
+                                            class="btn btn-outline-inverse btn-sm">read more</a>
+                                    </p>
+
+                                    <!-- content which will be shown in the popup/modal when clicking on the above link 
+                                    - it is important to set a unique id -->
+                                    <div class="modal content-to-populate-in-modal" id="modal-content-3">
+                                        <h2>Dolor sit amet</h2>
+                                        <p>
+                                            Morbi porttitor pharetra libero et semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu
+                                            ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                        </p>
+                                        <p>
+                                            Praesent vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla. Morbi volutpat vel ex in egestas. Aliquam
+                                            orci mauris, hendrerit quis dolor eu, fermentum vehicula quam. Donec finibus
+                                            dapibus viverra. Morbi sed convallis est. Donec iaculis velit ex, in cursus ex
+                                            pulvinar rutrum. Sed pharetra sagittis enim.
+                                        </p>
+                                        <p>
+                                            Mauris ac pulvinar diam, scelerisque dapibus enim. Nam mi purus, elementum interdum turpis id, aliquam mattis mi. Praesent
+                                            vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla.<br><br>
+
+                                            <img data-img-src="assets/images/carousel/product-2.png" class="bordered" alt="Product 2" src="./preview_files/product-2.png">
+                                        </p>
+                                    </div>
+
+                                    <!-- end: slide content to edit -->
+                                </div>
+                            </div>
+                            <!-- END: Carousel Slide 2 ------------------------------------------------------------------------- -->
+
+                            <!-- Carousel Slide 3 ------------------------------------------------------------------------------ -->
+                            <div class="item active" style="">
+                                <div class="carousel-text-content" style="height: 100%;">
+                                    <!-- start: slide content to edit -->
+
+                                    <img src="./preview_files/product-ico-3.png" class="icon bordered" alt="Product 3">
+                                    <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                                    <!-- <span class="icon glyphicon glyphicon-lock"></span> -->
+
+                                    <h2 class="title">Morbi porttitor</h2>
+                                    <p>
+                                        Class elementum interdum aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent
+                                        taciti sociosqu. Proin sodales auctor ligula eget hendrerit fermentum fermentum.
+                                    </p>
+
+                                    <!-- to make a popup/modal link add an onClick function call to the function: 
+                                    - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                                    <p>
+                                        <a href="https://demo.astemplates.com/html-templates/001024/" onclick="populate_and_open_modal(event, &#39;modal-content-4&#39;);"
+                                            class="btn btn-outline-inverse btn-sm">read more</a>
+                                    </p>
+
+                                    <!-- content which will be shown in the popup/modal when clicking on the above link 
+                                    - it is important to set a unique id -->
+                                    <div class="modal content-to-populate-in-modal" id="modal-content-4">
+                                        <h2>Morbi porttitor</h2>
+                                        <p>
+                                            <img data-img-src="assets/images/carousel/product-3.png" class="bordered pull-left" alt="Product 3" src="./preview_files/product-3.png">                                            Morbi porttitor pharetra libero et semper. Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia
+                                            nostra, per inceptos himenaeos.
+                                        </p>
+                                        <p>
+                                            Mauris ac pulvinar diam, scelerisque dapibus enim. Nam mi purus, elementum interdum turpis id, aliquam mattis mi. Praesent
+                                            vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla.
+                                        </p>
+                                        <p>
+                                            Praesent vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla. Morbi volutpat vel ex in egestas. Aliquam
+                                            orci mauris, hendrerit quis dolor eu, fermentum vehicula quam. Donec finibus
+                                            dapibus viverra. Morbi sed convallis est. Donec iaculis velit ex, in cursus ex
+                                            pulvinar rutrum. Sed pharetra sagittis enim.
+                                        </p>
+
+                                    </div>
+                                    <!-- end: slide content to edit -->
+                                </div>
+                            </div>
+                            <!-- END: Carousel Slide 3 ------------------------------------------------------------------------- -->
+
+                            <!-- Carousel Slide 4 ------------------------------------------------------------------------------ -->
+                            <div class="item" style="">
+                                <div class="carousel-text-content" style="height: 100%;">
+                                    <!-- start: slide content to edit -->
+
+                                    <img src="./preview_files/product-ico-4.png" class="icon bordered" alt="Product 4">
+                                    <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                                    <!-- <span class="icon glyphicon glyphicon-lock"></span> -->
+
+                                    <h2 class="title">Praesent vestibulum</h2>
+                                    <p>
+                                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin sodales auctor ligula eget
+                                        hendrerit fermentum fermentum. Morbi porttitor pharetra libero et semper elementum
+                                        interdum.
+                                    </p>
+
+                                    <!-- to make a popup/modal link add an onClick function call to the function: 
+                                    - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                                    <p>
+                                        <a href="https://demo.astemplates.com/html-templates/001024/" onclick="populate_and_open_modal(event, &#39;modal-content-5&#39;);"
+                                            class="btn btn-outline-inverse btn-sm">read more</a>
+                                    </p>
+
+                                    <!-- content which will be shown in the popup/modal when clicking on the above link 
+                                    - it is important to set a unique id -->
+                                    <div class="modal content-to-populate-in-modal" id="modal-content-5">
+                                        <h2>Praesent vestibulum</h2>
+                                        <p>
+                                            <img data-img-src="assets/images/carousel/product-4.png" class="bordered" alt="Product 4" src="./preview_files/product-4.png">                                            Morbi porttitor pharetra libero et semper. Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia
+                                            nostra, per inceptos himenaeos.
+                                        </p>
+                                        <p>
+                                            Mauris ac pulvinar diam, scelerisque dapibus enim. Nam mi purus, elementum interdum turpis id, aliquam mattis mi. Praesent
+                                            vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla.
+                                        </p>
+                                        <p>
+                                            Praesent vestibulum nec sapien ac elementum. Etiam scelerisque elementum fringilla. Morbi volutpat vel ex in egestas. Aliquam
+                                            orci mauris, hendrerit quis dolor eu, fermentum vehicula quam. Donec finibus
+                                            dapibus viverra. Morbi sed convallis est. Donec iaculis velit ex, in cursus ex
+                                            pulvinar rutrum. Sed pharetra sagittis enim.
+                                        </p>
+                                    </div>
+                                    <!-- end: slide content to edit -->
+                                </div>
+                            </div>
+                            <!-- END: Carousel Slide 4 ------------------------------------------------------------------------- -->
+
+                        </div>
+
+                        <!-- Indicators - slide navigation -->
+                        <!-- each slide should have data-slide-to set to the index of the slide (starting from 0), and a short title link for the slide -->
+                        <div class="indicators clearfix">
+                            <ol class="carousel-indicators title-indicators">
+                                <li data-target="#features-carousel" data-slide-to="0" class="">Lorem Ipsum</li>
+                                <li data-target="#features-carousel" data-slide-to="1" class="">Dolor sit amet</li>
+                                <li data-target="#features-carousel" data-slide-to="2" class="active">Morbi porttitor</li>
+                                <li data-target="#features-carousel" data-slide-to="3" class="">Praesent vestibulum</li>
+                            </ol>
+                        </div>
+
+                        <!-- Controls -->
+                        <!-- the left/right arrows to move from one slide to the other -->
+                        <a class="left carousel-control" href="https://demo.astemplates.com/html-templates/001024/#features-carousel" data-slide="prev"></a>
+                        <a class="right carousel-control" href="https://demo.astemplates.com/html-templates/001024/#features-carousel" data-slide="next"></a>
+
+                    </div>
+
+                    <!-- End: Section content to edit -->
+
+                </div>
+            </article>
+            <!-- END SECTION: Carousel -------------------------------------------------------------------------------------- -->
+
+
+
+            <!-- SECTION: Grid - Our Services -------------------------------------------------------------------------------- -->
+            <!-- This section should contain a grid with separate items consisting of an icon and text -->
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="grid" class="section-wrapper clearfix" data-custom-background-img="assets/images/backgrounds/bg-4.jpg">
+                <div class="content-wrapper clearfix" style="position: absolute;">
+                    <div class="col-sm-11 col-md-10 pull-right">
+
+                        <!-- Start: Section content to edit -->
+
+                        <h2 class="section-title">Our Services</h2>
+                        <div class="clearfix"></div>
+
+                        <!-- grid -->
+                        <!-- change class "clearfix-for-2cols" to number of columns to correspond with "col-md-6" class for each grid item -->
+                        <!-- check add_clear_items_to_fix_grid_items_different_heights_issue() function -->
+                        <section class="grid row clearfix clearfix-for-2cols">
+
+                            <!-- grid item -->
+                            <div class="grid-item col-md-6">
+                                <div class="item-content clearfix">
+                                    <img data-img-src="assets/images/services/service-ico-1.png" class="icon" alt="Lorem Ipsum" src="./preview_files/service-ico-1.png">
+                                    <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                                    <!-- <span class="icon fa fa-calendar-o"></span> -->
+                                    <div class="text-content">
+                                        <h5>Lorem ipsum dolor</h5>
+                                        <p>Cras at venenatis quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Cras ligula nunc, pharetra sed leo vitae.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- grid item -->
+                            <div class="grid-item col-md-6">
+                                <div class="item-content clearfix">
+                                    <img data-img-src="assets/images/services/service-ico-2.png" class="icon" alt="Lorem Ipsum" src="./preview_files/service-ico-2.png">
+                                    <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                                    <!-- <span class="icon fa fa-calendar-check-o"></span> -->
+                                    <div class="text-content">
+                                        <h5>Quisque tincidunt</h5>
+                                        <p>Etiam eu euismod nulla. Donec scelerisque tortor ut mi mattis, vel tincidunt metus
+                                            volutpat. In euismod pharetra luctus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <article class="clearfix"></article>
+
+                            <!-- grid item -->
+                            <div class="grid-item col-md-6">
+                                <div class="item-content clearfix">
+                                    <img data-img-src="assets/images/services/service-ico-3.png" class="icon" alt="Lorem Ipsum" src="./preview_files/service-ico-3.png">
+                                    <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                                    <!-- <span class="icon fa fa-calendar-plus-o"></span> -->
+                                    <div class="text-content">
+                                        <h5>Nullam a ornare</h5>
+                                        <p> Phasellus convallis tellus eu euismod ullamcorper. Pellentesque habitant morbi tristique
+                                            senectus et netus et malesuada.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- grid item -->
+                            <div class="grid-item col-md-6">
+                                <div class="item-content clearfix">
+                                    <img data-img-src="assets/images/services/service-ico-4.png" class="icon" alt="Lorem Ipsum" src="./preview_files/service-ico-4.png">
+                                    <!-- if you want to use a custom icon instead, replace the below <span> with the commented <img> above -->
+                                    <!-- <span class="icon fa fa-calendar"></span> -->
+                                    <div class="text-content">
+                                        <h5>Proin sed lorem</h5>
+                                        <p>Quisque id tempor libero, id elementum ante. Quisque malesuada ante elit, euismod
+                                            laoreet dolor ullamcorper aeleifend.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <article class="clearfix"></article>
+                        </section>
+
+                        <!-- End: Section content to edit -->
+
+                    </div>
+                </div>
+            </article>
+            <!-- END SECTION: Grid - Our Services -------------------------------------------------------------------------------- -->
+
+
+            <!-- SECTION: Featured Items ---------------------------------------------------------------------------------------- -->
+            <!-- This section may contain a max of 3 items each consisting of an image and text. Each item may be linked -->
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="featured" class="section-wrapper clearfix" data-custom-background-img="assets/images/backgrounds/bg-5.jpg">
+                <div class="content-wrapper clearfix" style="position: absolute;">
+                    <div class="col-sm-11 pull-right">
+
+                        <!-- Start: Section content to edit -->
+
+                        <h2 class="section-title">Featured</h2>
+                        <div class="clearfix"></div>
+
+                        <!-- Featured columns -->
+                        <section class="feature-columns row clearfix">
+
+                            <!-- Featured column 1 -->
+                            <article class="feature-col col-md-4">
+                                <!-- to make a popup/modal link add an onClick function call to the function: 
+                                - populate_and_open_modal(event, '[id of popup content container - see below]', 
+                                    '[optional - selector to scroll to inside popup]', '[optional - add class to the modal container]') -->
+                                <!-- if you don't want to link the featured item, replace the below <a> with a <div class="thumbnail"> -->
+                                <a href="https://demo.astemplates.com/html-templates/001024/" onclick="populate_and_open_modal(event, &#39;modal-content-6&#39;);"
+                                    class="thumbnail linked">
+                                    <div class="image-container">
+                                        <img data-img-src="assets/images/featured/featured.1.jpg" class="item-thumbnail" alt="Lorem Ipsum" src="./preview_files/featured.1.jpg">
+                                    </div>
+                                    <div class="caption">
+                                        <h5>Image Carousel</h5>
+                                        <p>Click here to open an image carousel feature, the content will be shown in popup
+                                            window</p>
+                                    </div>
+                                </a>
+
+                                <!-- content which will be shown in the popup window when clicking on the above link 
+                                - it is important to set a unique id -->
+                                <div class="content-to-populate-in-modal" id="modal-content-6">
+                                    <h2>Lorem ipsum</h2>
+                                    <p class="spacer_bottom">
+                                        Nunc elementum scelerisque lobortis. Nunc ac nulla posuere, interdum massa at, condimentum orci. Nunc a leo suscipit, pretium
+                                        arcu eu.
+                                    </p>
+
+                                    <!-- image slider inside popup -->
+                                    <!-- documentation for Owl Carousel: http://www.owlgraphic.com/owlcarousel/#how-to -->
+                                    <!-- every Owl Carousel with class .popup-image-gallery are initialised with same parameters when popup is showing 
+                                         (initialised in /js/initialise-functions.js). 
+                                         - If you want to create an Owl Carousel with different parameters, remove the class .popup-image-gallery, and intialise it in 
+                                         /js/initialise-function.js or at the footer of this page using the unique ID of that particular carousel instead of the class -->
+                                    <div id="unique-id-for-image-slider" class="owl-carousel popup-image-gallery">
+
+                                        <!-- slide -->
+                                        <div>
+                                            <!-- Caption is optional. To remove it, remove the <h6> below -->
+                                            <h6 class="caption">Caption for Image 1</h6>
+                                            <img class="lazyOwl" data-src="assets/images/featured/featured.2.jpg">
+                                        </div>
+
+                                        <!-- slide -->
+                                        <div>
+                                            <h6 class="caption">Caption for Image 2</h6>
+                                            <img class="lazyOwl" data-src="assets/images/featured/featured.3.jpg">
+                                        </div>
+
+                                        <!-- slide -->
+                                        <div>
+                                            <h6 class="caption">Caption for Image 3</h6>
+                                            <img class="lazyOwl" data-src="assets/images/featured/featured.4.jpg">
+                                        </div>
+
+                                    </div>
+                                    <!-- end: image slider inside popup -->
+                                </div>
+
+                            </article>
+                            <!-- END: Featured column 1 -->
+
+                            <!-- Featured column 2 -->
+                            <article class="feature-col col-md-4">
+                                <!-- to make a popup/modal link add an onClick function call to the function: 
+                                - populate_and_open_modal(event, '[id of popup content container - see below]', 
+                                    '[optional - selector to scroll to inside popup]', '[optional - add class to the modal container]') -->
+                                <!-- if you don't want to link the featured item, replace the below <a> with a <div class="thumbnail"> -->
+                                <a href="https://demo.astemplates.com/html-templates/001024/" onclick="populate_and_open_modal(event, &#39;modal-content-7&#39;);"
+                                    class="thumbnail linked">
+                                    <div class="image-container">
+                                        <img data-img-src="assets/images/featured/featured.5.jpg" class="item-thumbnail" alt="Lorem Ipsum" src="./preview_files/featured.5.jpg">
+                                    </div>
+                                    <div class="caption">
+                                        <h5>Image with Text</h5>
+                                        <p>Click here to open an image and text, the content will be shown in popup window</p>
+                                    </div>
+                                </a>
+
+                                <!-- content which will be shown in the popup/modal when clicking on the above link 
+                                - it is important to set a unique id -->
+                                <div class="content-to-populate-in-modal" id="modal-content-7">
+                                    <img data-img-src="assets/images/featured/featured.6.jpg" class="full-width spacer_bottom" alt="Lorem Ipsum" src="./preview_files/featured.6.jpg">
+                                    <h2>Mauris ultrices lectus</h2>
+                                    <p>Aliquam mattis tincidunt lectus, sed scelerisque nunc sodales sit amet. Nam mattis lectus
+                                        sed commodo molestie. Fusce lobortis pharetra egestas. Nunc non ligula commodo, lobortis
+                                        orci sit amet, molestie eros. Maecenas nec dolor consequat, volutpat nisi sagittis,
+                                        pellentesque ipsum.</p>
+                                    <p>Curabitur eu metus gravida arcu volutpat auctor. Aliquam erat volutpat. Duis a faucibus
+                                        nibh, vitae viverra dolor. </p>
+                                </div>
+
+                            </article>
+                            <!-- END: Featured column 2 -->
+
+                            <!-- Featured column 3 -->
+                            <article class="feature-col col-md-4">
+                                <!-- to make a popup/modal link add an onClick function call to the function: 
+                                - populate_and_open_modal(event, '[id of popup content container - see below]', 
+                                    '[optional - selector to scroll to inside popup]', '[optional - add class to the modal container]') -->
+                                <!-- if you don't want to link the featured item, replace the below <a> with a <div class="thumbnail"> -->
+                                <a href="https://demo.astemplates.com/html-templates/001024/" onclick="populate_and_open_modal(event, &#39;modal-content-8&#39;, &#39;&#39;, &#39;full-size&#39;);"
+                                    class="thumbnail linked">
+                                    <div class="image-container">
+                                        <img data-img-src="assets/images/featured/featured.7.jpg" class="item-thumbnail" alt="Lorem Ipsum" src="./preview_files/featured.7.jpg">
+                                    </div>
+                                    <div class="caption">
+                                        <h5>Alternate Gallery</h5>
+                                        <p>Click here to open popup window with alternative version of an image gallery</p>
+                                    </div>
+                                </a>
+
+                                <!-- content which will be shown in the popup/modal when clicking on the above link 
+                                - it is important to set a unique id -->
+                                <div class="content-to-populate-in-modal" id="modal-content-8">
+                                    <h2>Fusce a elementum</h2>
+                                    <p class="spacer_bottom">Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula
+                                        sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet
+                                        nec. Suspendisse molestie lorem odio, sit amet. Adipiscing eros non elit imperdiet
+                                        congue tiam at ligula sit amet arcu.</p>
+
+                                    <!-- alt image slider inside popup -->
+                                    <!-- documentation for Owl Carousel: http://www.owlgraphic.com/owlcarousel/#how-to -->
+                                    <!-- every Owl Carousel with class .popup-alt-image-gallery are initialised with same parameters when popup is showing 
+                                         (initialised in /js/initialise-functions.js) -->
+                                    <div id="unique-id-for-alt-image-slider" class="owl-carousel popup-alt-image-gallery ">
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001024/assets/images/featured/featured.8.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.8.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001024/assets/images/featured/featured.9.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.9.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001024/assets/images/featured/featured.10.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.10.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001024/assets/images/featured/featured.11.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.11.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001024/assets/images/featured/featured.12.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.12.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001024/assets/images/featured/featured.13.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.13.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001024/assets/images/featured/featured.14.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.14.jpg">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="https://demo.astemplates.com/html-templates/001024/assets/images/featured/featured.15.jpg" data-lightbox="popup-alt-gallery">
+                                                <img class="lazyOwl" data-src="assets/images/featured/featured.thumb.15.jpg">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </article>
+                            <!-- END: Featured column 3 -->
+
+                        </section>
+
+                        <!-- End: Section content to edit -->
+
+                    </div>
+                </div>
+            </article>
+            <!-- END SECTION: Featured Items ------------------------------------------------------------------------------------ -->
+
+
+            <!-- SECTION: Tab Our History ---------------------------------------------------------------------------------------------- -->
+            <!-- This section should contain generic content in tabs -->
+            <!-- More information about Bootstrap Tabs can be found on http://getbootstrap.com/javascript/#tabs -->
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="tabs" class="section-wrapper clearfix active" data-custom-background-img="assets/images/backgrounds/bg-6.jpg">
+                <div class="content-wrapper mid-vertical-positioning clearfix" style="position: absolute;">
+                    <div class="col-sm-11 pull-right">
+
+                        <h2 class="section-title">Corporate History</h2>
+
+                        <div class="tabpanel styled-tabs uniform-height" role="tabpanel">
+
+                            <!-- Nav tabs -->
+                            <!-- The "text-hidden-xs" attribute determines whether to show or hide tab text on mobile vieports ("true" - text is hidden) -->
+                            <ul class="nav nav-tabs" role="tablist" text-hidden-xs="true">
+                                <!-- Each tab should be structure as follows. Link href should be unique and match the ID of the respective tab-pane below. 
+                                     It has to match also with the "aria-controls" attribute. -->
+                                <!-- <i> represents the tab icon, <span> represents the tab text. -->
+                                <!-- The tab with <li class="active"> is the tab which is enabled by default -->
+                                <li role="presentation" class="active">
+                                    <a href="https://demo.astemplates.com/html-templates/001024/#tabs-tab1" aria-controls="tabs-tab1" role="tab" data-toggle="tab">
+                                        <i class="icon fa fa-diamond"></i><span>Established</span>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="https://demo.astemplates.com/html-templates/001024/#tabs-tab2" aria-controls="tabs-tab2" role="tab" data-toggle="tab">
+                                        <i class="icon fa fa-picture-o"></i><span>First Project</span>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="https://demo.astemplates.com/html-templates/001024/#tabs-tab3" aria-controls="tabs-tab3" role="tab" data-toggle="tab">
+                                        <i class="icon fa fa-cubes"></i><span>100 of Projects</span>
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="https://demo.astemplates.com/html-templates/001024/#tabs-tab4" aria-controls="tabs-tab4" role="tab" data-toggle="tab">
+                                        <i class="icon fa fa-object-group"></i><span>Nova Days</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+
+                                <!-- Each tab pane is contained in the .tab-pane container with the following structure. 
+                                     Its ID should be unique and match with the tab link above -->
+                                <!-- It make container all generic content (text, images, etc). To initialise functions after tab-pane is shown, 
+                                     you need to use Events which are described in the documentation. -->
+                                <!-- The tab which is enabled by default should include these classes: "in active" -->
+                                <div role="tabpanel" class="tab-pane fade in active" id="tabs-tab1" style="min-height: 454px;">
+                                    <img src="./preview_files/tab.1.jpg" class="pull-left bordered">
+                                    <h4>Phasellus ornare enim</h4>
+                                    <p>Aliquam mattis tincidunt lectus, sed scelerisque nunc sodales. am mattis lectus sed commodo
+                                        molestie. Fusce lobortis pharetra egestas. Nunc non ligula commodo, lobortis orci
+                                        sit amet, molestie eros.Quisque dignissim, dui ac laoreet semper. </p>
+                                    <p> Curabitur eu metus gravida arcu volutpat auctor. Aliquam erat volutpat. Vivamus ut nisl
+                                        id sem aliquet finibus. Sed blandit volutpat velit pretium auctor. Quisque in purus
+                                        quam. Ut at dictum libero, tristique egestas libero. Nulla egestas cursus finibus.
+                                        Cras sit amet dolor massa. Duis a faucibus nibh, vitae viverra dolor. Nulla egestas
+                                        cursus finibus. Duis scelerisque accumsan condimentum.</p>
+
+                                    <p>Proin aliquam lorem non nulla sollicitudin tincidunt. Cras sit amet dolor massa. Nunc
+                                        non ligula commodo, lobortis orci sit amet, molestie eros. Quisque dignissim, dui
+                                        ac laoreet semper, sapien massa posuere risus, sed blandit eros nunc sit amet orci.
+                                        </p>
+                                </div>
+
+                                <div role="tabpanel" class="tab-pane fade" id="tabs-tab2" style="min-height: 454px;">
+                                    <img src="./preview_files/tab.2.jpg" class="pull-right bordered">
+                                    <h4> Praesent placerat urna</h4>
+                                    <p>Aliquam malesuada molestie magna, vel lacinia arcu semper non. Morbi in dictum ante,
+                                        quis euismod odio. Maecenas vel ligula dapibus, blandit dolor eu, consectetur ligula.
+                                        Quisque dignissim, dui ac laoreet semper, sapien massa posuere risus, sed blandit
+                                        eros nunc sit amet orci. Proin aliquam lorem non nulla sollicitudin tincidunt. Aenean
+                                        ultrices vehicula elit, at venenatis orci facilisis sed. </p>
+                                    <p> Curabitur euismod gravida purus id tempus. Morbi sollicitudin ex in felis volutpat, a
+                                        molestie arcu mollis. Vivamus ut nisl id sem aliquet finibus. Sed blandit volutpat
+                                        velit pretium auctor. Quisque in purus quam. Ut at dictum libero, tristique egestas
+                                        libero. Nulla egestas cursus finibus. Cras sit amet dolor massa. Praesent eget metus
+                                        sit amet tellus sagittis sollicitudin. Maecenas vel ligula dapibus, blandit dolor
+                                        eu, consectetur ligula blandit eros nunc sit amet. Quisque dignissim, dui ac laoreet
+                                        semper, sapien massa posuere risus, sed blandit eros nunc sit amet orci. Proin aliquam
+                                        lorem non nulla sollicitudin tincidunt. Aenean ultrices vehicula elit, at venenatis
+                                        orci facilisis sed. </p>
+                                </div>
+
+                                <div role="tabpanel" class="tab-pane fade" id="tabs-tab3" style="min-height: 454px;">
+                                    <img src="./preview_files/tab.3.jpg" class="pull-left bordered">
+                                    <h4>Nullam molestie molestie</h4>
+                                    <p>Maecenas vel ligula dapibus, blandit dolor eu, consectetur ligula. Curabitur euismod
+                                        gravida purus id tempus. Morbi sollicitudin ex in felis volutpat, a molestie arcu
+                                        mollis. Vivamus ut nisl id sem aliquet finibus. Sed blandit volutpat velit pretium
+                                        auctor. Quisque in purus quam. Ut at dictum libero, tristique egestas libero. Nulla
+                                        egestas cursus finibus. Cras sit amet dolor massa. Praesent eget metus sit amet tellus
+                                        sagittis sollicitudin.</p>
+                                    <p>Aliquam malesuada molestie magna, vel lacinia arcu semper non. Morbi in dictum ante,
+                                        quis euismod odio. Maecenas vel ligula dapibus, blandit dolor eu, consectetur ligula.
+                                        Quisque dignissim, dui ac laoreet semper, sapien massa posuere risus, sed blandit
+                                        eros nunc sit amet orci. Proin aliquam lorem non nulla sollicitudin tincidunt. Aenean
+                                        ultrices vehicula elit, blandit volutpat velit at venenatis orci facilisis sed. Maecenas
+                                        vel ligula dapibus, blandit dolor eu, consectetur ligula. Quisque dignissim, dui
+                                        ac laoreet semper, sapien massa posuere risus, sed blandit eros nunc sit amet orci.
+                                        Proin aliquam lorem non nulla sollicitudin tincidunt. Aenean ultrices vehicula elit,
+                                        at venenatis orci facilisis sed. </p>
+                                </div>
+
+                                <div role="tabpanel" class="tab-pane fade" id="tabs-tab4" style="min-height: 454px;">
+                                    <img src="./preview_files/tab.4.jpg" class="pull-right bordered">
+                                    <h4> Aenean at enim eget</h4>
+                                    <p>Praesent id rhoncus justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                        ante arcu, rhoncus tempor vestibulum vel, imperdiet a enim. Duis dignissim lacus
+                                        a ante dignissim rhoncus. Integer luctus felis sed augue sagittis maximus. Vestibulum
+                                        posuere ac dolor id tristique. Phasellus imperdiet erat lacinia velit rutrum vestibulum.
+                                        Quisque dignissim, dui ac laoreet semper, tristique egestas libero sapien massa posuere
+                                        risus, sed blandit eros nunc sit amet orci. Maecenas vel ligula dapibus, blandit
+                                        dolor eu, consectetur ligula. Quisque dignissim, dui ac laoreet semper, sapien massa
+                                        posuere risus, sed blandit eros nunc sit amet orci. Proin aliquam lorem non nulla
+                                        sollicitudin tincidunt. Aenean ultrices vehicula elit, at venenatis orci facilisis
+                                        sed. .</p>
+                                    <p> Vivamus ut nisl id sem aliquet finibus. Sed blandit volutpat velit pretium auctor. Quisque
+                                        in purus quam. Ut at dictum libero, tristique egestas libero. Mauris commodo ante
+                                        magna, sed sollicitudin nunc ornare ac. Nunc id elit vel orci aliquet euismod tristique
+                                        vitae orci. Pellentesque quam arcu, tristique egestas libero rutrum blandit orci
+                                        non, accumsan cursus lectus. Phasellus eros leo, luctus eget lacus a, ullamcorper.
+                                        </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- END SECTION: Tab History ------------------------------------------------------------------------------------------ -->
+
+
+            <!-- SECTION: Contact Us -------------------------------------------------------------------------------------------- -->
+            <!-- This section should contain contact details and a contact form -->
+            <!-- For each section <article class="section-wrapper".. :
+                 - remember to use a unique id, 
+                 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="contact" class="section-wrapper clearfix" data-custom-background-img="assets/images/backgrounds/bg-7.jpg">
+                <div class="content-wrapper clearfix" style="position: absolute;">
+                    <div class="col-sm-12 pull-right">
+
+                        <!-- Start: Section content to edit -->
+
+                        <h2 class="section-title" style="text-align: center;">Chat with us</h2>
+
+                        <!-- Contact Form -->
+                        <div class="col-sm-7 col-md-9">
+                            <!-- IMPORTANT: change the email address at the top of the assets/php/mail.php file to the email address that you want this form to send to -->
+                            <iframe style="border: none;" width="800" height="430" src="https://console.api.ai/api-client/demo/embedded/94e4ada2-02c3-4720-bc1b-4448579c6d8d">
+                            </iframe>
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+            <!-- END SECTION: Contact Us ---------------------------------------------------------------------------------------- -->
+
+        </section>
+        <!-- END: Main Content **************************************************************************************  -->
+
+        <!-- Footer *************************************************************************************************  -->
+        <section id="footer">
+
+            <!-- Go to Top -->
+            <div id="go-to-top" onclick="scroll_to_top();" class="active"><span class="icon glyphicon glyphicon-chevron-up"></span></div>
+
+            <!-- Social Icons -->
+            <!-- Each social icon item consists of the following:
+            - Link to the social page in href of <a>
+            - social icon in the <img> - a list of social icons options are found in the directory assets/images/social/ -->
+            <ul class="social-icons">
+                <li>
+                    <a href="https://demo.astemplates.com/html-templates/001024/#" target="_blank" title="Facebook"><img src="./preview_files/facebook.png" alt="Facebook"></a>
+                </li>
+                <li>
+                    <a href="https://demo.astemplates.com/html-templates/001024/#" target="_blank" title="Twitter"><img src="./preview_files/twitter.png" alt="Twitter"></a>
+                </li>
+                <li>
+                    <a href="https://demo.astemplates.com/html-templates/001024/#" target="_blank" title="Google+"><img src="./preview_files/googleplus.png" alt="Google+"></a>
+                </li>
+            </ul>
+
+            <!-- copyright text -->
+            <div class="footer-text-line">© 2015 PIONEER CONSULTING</div>
+
+        </section>
+        <!-- END: Footer *************************************************************************************************  -->
+
+    </div>
+    <!-- Outer Container *************************************************************************************************  -->
+
+    <!-- Modal Window ----------------------------------------------------------------------------------------------------- -->
+    <!-- DO NOT MOVE, EDIT OR REMOVE - this is needed in order for popup content to be populated in it -->
+    <div class="modal fade" id="common-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <div class="modal-body clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mod-custom mod-custom__mobile_version">
+        <p>
+            <a href="http://www.astemplates.com/itempreview-tablet-landscape/421">
+	            See <br>
+            	Mobile <br>
+            	Version
+            </a>
+        </p>
+    </div>
+
+    <!-- Jquery and Bootstrap JS -->
+    <script type="text/javascript" async="" src="./preview_files/atrk.js"></script>
+    <script async="" src="./preview_files/analytics.js"></script>
+    <script src="./preview_files/jquery-1.11.2.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="assets/js/jquery-1.11.2.min.js"><\/script>')
+    </script>
+    <script src="./preview_files/bootstrap.min.js"></script>
+
+    <!-- Easing - for transitions and effects -->
+    <script src="./preview_files/jquery.easing.1.3.js"></script>
+
+    <!-- background image strech script -->
+    <script src="./preview_files/jquery.vegas.min.js"></script>
+
+    <!-- detect mobile browsers -->
+    <script src="./preview_files/detectmobilebrowser.js"></script>
+
+    <!-- detect scrolling -->
+    <script src="./preview_files/jquery.scrollstop.min.js"></script>
+
+    <!-- owl carousel js -->
+    <script src="./preview_files/owl.carousel.min.js"></script>
+
+    <!-- lightbox js -->
+    <script src="./preview_files/lightbox.min.js"></script>
+
+    <!-- intro animations -->
+    <script src="./preview_files/wow.min.js"></script>
+
+    <!-- responsive videos -->
+    <script src="./preview_files/jquery.fitvids.js"></script>
+
+    <!-- Custom functions for this theme -->
+    <script src="./preview_files/functions.js"></script>
+    <script src="./preview_files/initialise-functions.js"></script>
+
+    <!-- IE9 form fields placeholder fix -->
+    <!--[if lt IE 9]>
+    <script>contact_form_IE9_placeholder_fix();</script>
+    <![endif]-->
+
+    <script>
+        var isInIFrame = (window.location != window.parent.location);
+
+        if (isInIFrame == false) {
+            <!--Google Analytics -- >
+                (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-17774394-1', 'auto');
+            ga('send', 'pageview');
+
+            <!--Alexa Certify Javascript -- >
+                _atrk_opts = { atrk_acct: "tD2of1a0CM002x", domain:"astemplates.com", dynamic: true };
+            (function () { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })();
+        }
+        else {
+            jQuery(document).ready(function () {
+                jQuery(".mod-custom__mobile_version").hide();
+            });
+        }
+    </script>
+
+    <div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div>
+    <div id="lightbox" class="lightbox" style="display: none;">
+        <div class="lb-outerContainer">
+            <div class="lb-container"><img class="lb-image" src="https://demo.astemplates.com/html-templates/001024/">
+                <div class="lb-nav">
+                    <a class="lb-prev" href="https://demo.astemplates.com/html-templates/001024/"></a>
+                    <a class="lb-next" href="https://demo.astemplates.com/html-templates/001024/"></a>
+                </div>
+                <div class="lb-loader">
+                    <a class="lb-cancel"></a>
+                </div>
+            </div>
+        </div>
+        <div class="lb-dataContainer">
+            <div class="lb-data">
+                <div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div>
+                <div class="lb-closeContainer">
+                    <a class="lb-close"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

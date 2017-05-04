@@ -1,12 +1,10 @@
-var searchFlightService = require('../services/searchFlightService.js');
-var flightUserInfo = require('../actions/flights.info.js')
+var reservationService = require('../services/reservationService.js');
 
 var execute = function (request) {
-
     var parameters = request.result.parameters;
-    var seat = parameters.seat || "11B";
+    var result = reservationService.book(parameters.seat);
     return {
-        text: "Your flight was checked in. Seat " + seat
+        text: result
     }
 
 }

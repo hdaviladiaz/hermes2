@@ -3,13 +3,20 @@ var i18n = require('./i18n');
 var bodyParser = require('body-parser');
 var action_manager = require("./actions/action_manager.js");
 var searchFlightService = require('./services/searchFlightService.js');
+var path = require('path');
+var url = require('url');
+
 module.exports = function(app){
 
   app.use(i18n);
   app.use(bodyParser.json());
 
   app.get('/', function (request, response) {
-    response.end('Wellcome to HERMES Assistant API ' + response.__('Hello i18n'));
+    response.sendFile(path.join(__dirname + '/preview.html'));
+  });
+  app.get('/preview_files/*', function (request, response) {
+    var url_parts = url.parse(request.url, true);
+    response.sendFile(path.join(__dirname + url_parts.path));
   });
 
   app.post('/', function (request, response) {

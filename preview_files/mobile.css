@@ -1,0 +1,50 @@
+/**************************************************************************************/
+/*
+/*		Designed by 'AS Designing'
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: GNU/GPL
+/*
+/**************************************************************************************/
+
+
+.mod-custom__mobile_version
+{
+    background: rgba(255, 255, 255, 0.1) url("http://www.astemplates.com/images/bg.mobile.png") no-repeat scroll left bottom;
+    border-top-right-radius: 100%;
+    bottom: 0;
+    position: fixed;
+    transition: background-image 0.5s ease-in-out 0s;
+    z-index: 999;
+    transition: opacity 0.5s ease-in-out 0s;		
+}
+
+.mod-custom__mobile_version p
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.mod-custom__mobile_version p a
+{
+	opacity: 0;	
+	background: rgba(204, 27, 7, 1);
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+    width: 160px;	
+    height: 120px;
+	border-top-right-radius: 100%;
+	display: table-caption;
+	padding-top: 45px;
+	padding-left: 25px;
+	font-size: 14px;
+	line-height: 18px;
+    transition: opacity 0.5s ease-in-out 0s;	
+}
+
+.mod-custom__mobile_version p a:hover
+{
+	opacity: 1;
+	border: none;
+}
