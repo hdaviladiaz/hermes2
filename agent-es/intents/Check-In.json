@@ -1,0 +1,98 @@
+{
+  "templates": [
+    "checking",
+    "check in",
+    "Chek in",
+    "I want to check in my flight"
+  ],
+  "userSays": [
+    {
+      "id": "b6ed5f24-3db4-4e79-95d2-1b0b96957657",
+      "data": [
+        {
+          "text": "checking"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56916031-5b50-429a-8a1e-54dfd9dc0c31",
+      "data": [
+        {
+          "text": "check in"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e8317a85-82eb-43c7-a0af-78b84f67245d",
+      "data": [
+        {
+          "text": "Chek in"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69f2aef9-3691-4ddb-a5bd-167cbcc60297",
+      "data": [
+        {
+          "text": "I  want to check in my flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6185c83b-e842-42fb-a94e-1ccd83b7e6a9",
+  "name": "Check-In",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "checkIn",
+      "affectedContexts": [
+        {
+          "name": "checkIn",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Check-In-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "passport",
+          "prompts": [
+            "What is your passport."
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
