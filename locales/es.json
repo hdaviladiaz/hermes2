@@ -3,28 +3,30 @@
 	"flights": {
 		"flight": "vuelo",
 		"flights": "vuelos",
-		"empty": "No hay m\u00E1s vuelos.",
-		"found": "Encontr\u00E9 en LATAM ",
-		"nomore": "No hay \u00E1 vuelos.",
-		"noprevious": "No hay m\u00E1s previos vuelos.",
+		"empty": "No hay más vuelos.",
+		"found": "Encontré en LATAM ",
+		"nomore": "No hay á vuelos.",
+		"noprevious": "No hay más previos vuelos.",
 		"notexists": "No existen vuelos",
-		"cheapest": "El vuelo m\u00E1s barato",
+		"cheapest": "El vuelo más barato",
 		"leaves": "El vuelo despega a",
 		"arrives_and": "y aterriza a las",
-		"leaves_at": "opci\u00F3n despega a las",
+		"leaves_at": "opción despega a las",
 		"id": "identificador"
 	},
 	"prepositions": {
 		"the": "El",
+		"the_a": "La",
 		"for": "por",
 		"for_a": "para",
 		"from": "desde",
 		"to": "hacia",
 		"with": "con",
-		"id": "identificador"
+		"id": "identificador",
+		"option": "opción"
 	},
 	"reserve": {
-		"question": "\u00BFQu\u00E9 vuelo quieres reservar?",
+		"question": "¿Qué vuelo quieres reservar?",
 		"was_reserved": "fue reservado"
 	},
 	"marks": {
@@ -33,6 +35,10 @@
 		"comma": ","
 	},
 	"phrases": {
-		"has_a_cost_of":"tiene un costo de"
-	}
+		"has_a_cost_of": "tiene un costo de"
+	},
+	"2018-01-22": "2018-01-22",
+	"tomorrow": "ma\u00F1ana",
+	"today": "hoy",
+	"yesterday": "ayer"
 }
