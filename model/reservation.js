@@ -5,7 +5,7 @@ function Reservations() {
     var duration = 60 + (i * 20);
     options.push({
       "flightId": "LT" + (i + 1) + "F" + (i + 1) * 100,
-      "passport": "123456",
+      "passport": "one two three four five six",
       "price": 500 + i * 50,
       "class": i % 2 == 0 ? "first" : "tourist",
       "duration": "2h",
