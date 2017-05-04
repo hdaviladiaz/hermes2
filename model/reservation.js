@@ -8,7 +8,7 @@ function Reservations (origin, destination, date, passport) {
       "passport": passport,
       "price": 500 + i * 50,
       "class": i % 2 == 0 ? "first" : "tourist",
-      "seat": "None",
+      "seat": "1B",
       "duration": duration,
       "departure": {
         "date": moment(date, patternFormat).add(0, 'days').format(),
