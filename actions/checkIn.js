@@ -4,6 +4,7 @@ var execute = function (request) {
 
     var parameters = request.result.parameters;
     var passport = parameters.passport;
+    console.log(passport);
     var reservation = reservationService.getReservation(passport);
     var text = "Dou you want a specific seat?";
     if (!reservation || reservation.length == 0) {
