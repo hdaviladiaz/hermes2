@@ -1,0 +1,209 @@
+{
+  "templates": [
+    "book it",
+    "reserve it",
+    "book it please",
+    "Reserve me the flight",
+    "Book me the fligth",
+    "Please reserve the flight",
+    "Can you reserve the flight please",
+    "Reserve the flight",
+    "Reserve it please",
+    "Book it please",
+    "Please book the flight",
+    "Can you book the flight",
+    "Book the flight",
+    "Book the flight please"
+  ],
+  "userSays": [
+    {
+      "id": "24b460db-504b-4f41-856d-97ce4c98e988",
+      "data": [
+        {
+          "text": "book it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 3
+    },
+    {
+      "id": "dbd0a49d-9eeb-47b9-817b-ada3b40b9cb9",
+      "data": [
+        {
+          "text": "reserve it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5eb5f3cf-345a-476e-a74f-6407f56379ed",
+      "data": [
+        {
+          "text": "book it please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b66dcdc6-b1d3-4d1d-9a50-55c441679093",
+      "data": [
+        {
+          "text": "Reserve me the flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ccf37ac1-ddcc-4be3-bbe6-23760c651099",
+      "data": [
+        {
+          "text": "Book me the fligth"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "350c294c-5449-4c75-9569-de187340a7b5",
+      "data": [
+        {
+          "text": "Please reserve the flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0463a97a-a9a7-4dd8-82e8-007a73b1094e",
+      "data": [
+        {
+          "text": "Can you reserve the flight please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5abb8f5b-c616-403d-ad3f-e230561416c2",
+      "data": [
+        {
+          "text": "Reserve the flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f1a64f8f-ecbc-450e-9330-25342e6478f4",
+      "data": [
+        {
+          "text": "Reserve it please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8e393099-9559-4f26-8600-ffca234e9b1f",
+      "data": [
+        {
+          "text": "Book it please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2df7f1c4-5ca2-46d1-8b49-14ad34904fe2",
+      "data": [
+        {
+          "text": "Please book the flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8c18ba0-610c-43f9-a847-033b51cf9663",
+      "data": [
+        {
+          "text": "Can you book the flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8418dd38-97b9-4033-afbe-09ab8a7f49f0",
+      "data": [
+        {
+          "text": "Book the flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "06aedc75-ce31-4797-b20a-7abc8300afbf",
+      "data": [
+        {
+          "text": "Book the flight please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2ae0adce-ad48-454f-adb8-4ba19c6e6d3b",
+  "parentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "rootParentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights-Booking",
+  "auto": true,
+  "contexts": [
+    "flight",
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights.booking",
+      "affectedContexts": [
+        {
+          "name": "flight",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-Booking-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "send-email",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I can\u0027t book the flight right now. Please try later."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

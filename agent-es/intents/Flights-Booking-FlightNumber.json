@@ -1,0 +1,214 @@
+{
+  "templates": [
+    "the @sys.number:numbers ",
+    "the @sys.number:numbers ",
+    "@sys.number:numbers ",
+    "reserve the @sys.number:numbers ",
+    "book the @sys.number:numbers ",
+    "reserve me the number @sys.number:numbers ",
+    "book me the @sys.number:numbers ",
+    "@sys.number:numbers ",
+    "I want option @sys.number:numbers "
+  ],
+  "userSays": [
+    {
+      "id": "680b63ad-8567-4e59-a1da-426e692dc9f7",
+      "data": [
+        {
+          "text": "the "
+        },
+        {
+          "text": "first",
+          "alias": "numbers",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fa227be1-686f-4f39-bae0-35aeaee59ae9",
+      "data": [
+        {
+          "text": "the "
+        },
+        {
+          "text": "second",
+          "alias": "numbers",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8cfab65a-76f4-46f9-8181-7b6a87b2567f",
+      "data": [
+        {
+          "text": "2",
+          "alias": "numbers",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4e00d479-4fc3-4adc-b9ac-705c659031ae",
+      "data": [
+        {
+          "text": "reserve the "
+        },
+        {
+          "text": "8",
+          "alias": "numbers",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6ce683ef-ad94-4a5c-8601-f83c0391ae69",
+      "data": [
+        {
+          "text": "book the "
+        },
+        {
+          "text": "9",
+          "alias": "numbers",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d7a41f7-7c2a-41b7-934e-587c868e0e7e",
+      "data": [
+        {
+          "text": "reserve me the number "
+        },
+        {
+          "text": "6",
+          "alias": "numbers",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f064196a-8188-4a39-8514-7d02f59878e0",
+      "data": [
+        {
+          "text": "book me the "
+        },
+        {
+          "text": "1",
+          "alias": "numbers",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ce98cdb-7058-4051-8e94-644cfdcc6b03",
+      "data": [
+        {
+          "text": "3",
+          "alias": "numbers",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c526df78-c3f2-44e1-a27d-a7029cbdce90",
+      "data": [
+        {
+          "text": "I want option "
+        },
+        {
+          "text": "five",
+          "alias": "numbers",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b52027ae-230f-4f19-91a7-e56f1d2fe74e",
+  "parentId": "2ae0adce-ad48-454f-adb8-4ba19c6e6d3b",
+  "rootParentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights-Booking-FlightNumber",
+  "auto": true,
+  "contexts": [
+    "flight",
+    "Flights-followup",
+    "Flights-Booking-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights.booking",
+      "affectedContexts": [
+        {
+          "name": "flight",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-Booking-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "send-email",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "numbers",
+          "value": "$numbers",
+          "prompts": [
+            "Tell me the option you want to book."
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
