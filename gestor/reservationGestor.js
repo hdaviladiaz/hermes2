@@ -1,5 +1,9 @@
 var Reservations = require('../model/reservation.js');
+var _ = require('underscore');
 
-var getReservation = function(origin, destination, date, passport){
-  return new Reservations(origin, destination, date, passport)
+var getReservation = function (passport) {
+  var reservations = new Reservations();
+  return _.find(reservations, function (reservation) { return reservation.passport == passport; });
 }
+
+exports.getReservation = getReservation;

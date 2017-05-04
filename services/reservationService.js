@@ -1,6 +1,7 @@
 var reservationGestor = require('../gestor/reservationGestor.js');
 
 
-var getReservation = function(origin, destination, date, passport){
-  return reservationGestor.getReservation(origin, destination, date, passport);
+var getReservation = function (passport) {
+  return reservationGestor.getReservation(passport);
 }
+exports.getReservation = getReservation;

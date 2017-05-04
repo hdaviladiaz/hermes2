@@ -1,28 +1,26 @@
 
-function Reservations (origin, destination, date, passport) {
+function Reservations() {
   var options = [];
-  for (var i = 0; i < 2; i++) {
+  for (var i = 0; i < 1; i++) {
     var duration = 60 + (i * 20);
     options.push({
       "flightId": "LT" + (i + 1) + "F" + (i + 1) * 100,
-      "passport": passport,
+      "passport": "A001234",
       "price": 500 + i * 50,
       "class": i % 2 == 0 ? "first" : "tourist",
-      "seat": "1B",
-      "duration": duration,
+      "duration": "2h",
       "departure": {
-        "date": moment(date, patternFormat).add(0, 'days').format(),
-        "time":i % 2 == 0 ? "04:30" : "15:00" ,
-        "airport": origin + " airport"
+        "date": "2015-10-05",
+        "time": i % 2 == 0 ? "04:30" : "15:00"
       },
       "arrival": {
-        "date": moment(date, patternFormat).add(0, 'days').format(),
-        "time": i % 2 == 0 ? "06:30" : "17:00",
-        "airport": destination + " airport"
+        "date": "2015-10-05",
+        "time": i % 2 == 0 ? "06:30" : "17:00"
       }
     });
     return options;
+  }
 }
 
 
-module.exports = Reservations
+  module.exports = Reservations
