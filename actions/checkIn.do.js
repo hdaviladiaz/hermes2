@@ -4,11 +4,11 @@ var flightUserInfo = require('../actions/flights.info.js')
 var execute = function (request) {
 
     var parameters = request.result.parameters;
-    var passport=parameters.passport;
+    var seat = parameters.seat || "11B";
     return {
-        text:"Dou you want a specific seat?"
+        text: "Your flight was checked in. Seat " + seat
     }
-    
+
 }
 
 exports.execute = execute;
