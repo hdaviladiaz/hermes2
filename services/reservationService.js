@@ -1,18 +1,18 @@
 var reservationGestor = require('../gestor/reservationGestor.js');
-
+var i18n = require('../i18n');
 
 var getReservation = function (passport) {
   var reservation = reservationGestor.getReservation(passport);
-  var text = "Dou you want a specific seat?";
+  var text = __('reserve.question.seat');
   if (!reservation || reservation.length == 0) {
-    text = "You dont have any flight to check in.";
+    text = __('reserve.no_check_in');
   }
   return text;
 }
 
 var book = function (seat) {
   seat = seat || "11B";
-  return "Your flight was checked in. Seat " + seat
+  return " " +__('reserve.success_check_in') + " " + seat;
 }
 
 exports.book = book;

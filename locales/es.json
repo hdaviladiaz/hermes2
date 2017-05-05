@@ -27,7 +27,13 @@
 	},
 	"reserve": {
 		"question": "¿Qué vuelo quieres reservar?",
-		"was_reserved": "fue reservado"
+		"was_reserved": "fue reservado",
+		"no_check_in": "No tienes ningun vuelo con check-in pendiente.",
+		"success_check_in": "Se ha realizado el check-in. Tu número de asiento es. ",
+		"question": {
+			"email": "¿Deseas receibir un correo electrónico con esta información?",
+			"seat": "¿Quieres un asiento en específico?"
+		}
 	},
 	"marks": {
 		"dot": ".",
