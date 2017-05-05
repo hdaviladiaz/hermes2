@@ -24,7 +24,8 @@
 		"with": "con",
 		"id": "identificador",
 		"option": "opción",
-		"that": "Esa"
+		"that": "Esa",
+		"cost": "cuesta"
 	},
 	"reserve": {
 		"question": "¿Qué vuelo quieres reservar?",

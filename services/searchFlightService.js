@@ -14,7 +14,7 @@ var searchFlights = function (origin, destination, date) {
   text = __('flights.found') + " " + flight.pagination.count + " " + __('flights.flights') + " " + __('prepositions.for_a') + " "
     + translateDay(humanize.naturalDay(momentDate.unix())) + " " + __('prepositions.from') + " " + origin + " " + __('prepositions.to') + " " + destination + ". ";
   _.each(flight.trips, function (trip, index) {
-    text += __('prepositions.the_a') + " " + __('prepositions.option') + " " + (index + 1) + " " + __('prepositions.for') + " " + trip.price + " " + flight.currency + ". ";
+    text += __('prepositions.the_a') + " " + __('prepositions.option') + " " + (index + 1) + " " + __('prepositions.cost') + " " + trip.price + " " + flight.currency + ". ";
   })
   return text;
 }

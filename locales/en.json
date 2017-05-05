@@ -24,7 +24,8 @@
 		"with": "with",
 		"id": "ID",
 		"option": "option",
-		"that": "that"
+		"that": "that",
+		"cost": "costs"
 	},
 	"reserve": {
 		"question": "What flight do you want to reserve",
