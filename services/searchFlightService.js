@@ -88,8 +88,8 @@ var getFlightTime = function (origin, destination, date, page, numbers) {
       + " " + __('flights.arrives_and') + " " + flight.trips[0].arrival.time + ". ";
   } else {
     _.each(flight.trips, function (trip, index) {
-      text += __('prepositions.the_a') + " " + __('prepositions.option') + " " + (index + 1) + " " + __('flights.arrives_at') + " " + trip.departure.time
-        + " " + __('flights.arrives_and') + " " + trip.arrival.time + ". ";
+      text += __('prepositions.the_a') + " " + __('prepositions.option') + " " + (index + 1) + " " + __('flights.leaves_at') + " " + trip.departure.time
+        + " " + __('flights.arrives_at') + " " + trip.arrival.time + ". ";
     })
 
   }

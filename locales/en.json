@@ -10,8 +10,8 @@
 		"notexists": "flights do not exists",
 		"cheapest": "The cheapest flight",
 		"leaves": "leaves at",
-		"arrives_and": "and arrives and",
-		"leaves_at": "option leaves at",
+		"arrives_and": "and arrives at",
+		"leaves_at": "option takes off at",
 		"id": "ID"
 	},
 	"prepositions": {
