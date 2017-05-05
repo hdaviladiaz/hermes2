@@ -23,7 +23,8 @@
 		"to": "hacia",
 		"with": "con",
 		"id": "identificador",
-		"option": "opción"
+		"option": "opción",
+		"that": "Esa"
 	},
 	"reserve": {
 		"question": "¿Qué vuelo quieres reservar?",
