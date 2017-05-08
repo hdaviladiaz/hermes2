@@ -76,8 +76,8 @@ var getCheaperFlights = function (origin, destination, date) {
   var text = "";
   var momentDate = moment(flights.trips[0].departure.date, "YYYY-MM-DD");
   text = __('flights.cheapest') + " " + __('phrases.has_a_cost_of') + " "
-    + flights.trips[0].price + " " + flights.currency + ". " + __('prepositions.that') +  " " + __('flights.leaves_at') + " " + trip.departure.time
-      + " " + __('flights.arrives_and') + " " + trip.arrival.time + ". ";
+    + flights.trips[0].price + " " + flights.currency + ". " + __('prepositions.that') +  " " + __('flights.leaves_at') + " " 
+    + flights.trips[0].departure.time + " " + __('flights.arrives_and') + " " + flights.trips[0].arrival.time + ". ";
   return text;
 }
 
