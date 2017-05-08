@@ -33,7 +33,7 @@
 		"was_reserved": "was reserved",
 		"no_check_in": "You dont have any flight to check in.",
 		"success_check_in": "Your flight was checked in. Seat ",
-		"question": {
+		"questions": {
 			"email": "Do you want to receive an email with the reserve information?",
 			"seat": "Dou you want a specific seat?"
 		}

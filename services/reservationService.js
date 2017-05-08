@@ -3,7 +3,7 @@ var i18n = require('../i18n');
 
 var getReservation = function (passport) {
   var reservation = reservationGestor.getReservation(passport);
-  var text = __('reserve.question.seat');
+  var text = __('reserve.questions.seat');
   if (!reservation || reservation.length == 0) {
     text = __('reserve.no_check_in');
   }
