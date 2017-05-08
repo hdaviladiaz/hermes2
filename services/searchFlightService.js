@@ -75,9 +75,9 @@ var getCheaperFlights = function (origin, destination, date) {
   var flights = searchFlightGestor.getCheaperFlights(origin, destination, date);
   var text = "";
   var momentDate = moment(flights.trips[0].departure.date, "YYYY-MM-DD");
-  text = __('flights.cheapest') + " " + /*humanize.naturalDay(momentDate.unix()) + */" " + __('phrases.has_a_cost_of') + " "
+  text = __('flights.cheapest') + " " + __('phrases.has_a_cost_of') + " "
     + flights.trips[0].price + " " + flights.currency + ". " + __('prepositions.that') +  " " + __('flights.leaves_at') + " " + trip.departure.time
-      + " " + __('flights.arrives_at') + " " + trip.arrival.time + ". ";
+      + " " + __('flights.arrives_and') + " " + trip.arrival.time + ". ";
   return text;
 }
 
@@ -90,7 +90,7 @@ var getFlightTime = function (origin, destination, date, page, numbers) {
   } else {
     _.each(flight.trips, function (trip, index) {
       text += __('prepositions.the_a') + " " + __('prepositions.option') + " " + (index + 1) + " " + __('flights.leaves_at') + " " + trip.departure.time
-        + " " + __('flights.arrives_at') + " " + trip.arrival.time + ". ";
+        + " " + __('flights.arrives_and') + " " + trip.arrival.time + ". ";
     })
 
   }
