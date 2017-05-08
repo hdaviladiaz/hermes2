@@ -15,6 +15,9 @@
 		"takes_off_at": "takes off at",
 		"id": "ID"
 	},
+	"actions": {
+		"email_sent": "Ok, email was sent to"
+	},
 	"prepositions": {
 		"the": "The",
 		"the_a": "The",

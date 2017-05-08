@@ -15,6 +15,9 @@
 		"takes_off_at": "despega a las",
 		"id": "identificador"
 	},
+	"actions": {
+		"email_sent": "Ok, El correo electrónico ha sido enviado a"
+	},
 	"prepositions": {
 		"the": "El",
 		"the_a": "La",

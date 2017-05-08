@@ -19,9 +19,8 @@ var execute = function (request) {
         .replace("{{passport}}", "1234007");
     sendEmail.sendEmail(email, "Reserve Information", message);
     return {
-        text: "Ok, email was sent to " + email
+        text: __('actions.email_sent') + " " + email
     }
 }
 
 exports.execute = execute;
-
