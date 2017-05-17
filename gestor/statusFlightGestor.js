@@ -3,7 +3,7 @@ var _ = require('underscore');
 var statusFlightHttpRequest = function (airlineCode, flightNumber, date) {
     var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://www.latam.com/ws/api/flight-status/1.1/rest/airline-code/" + airlineCode + "/flight-number/" + flightNumber + "/standar-time-condition/SCHEDULE/departure-date/" + date + "/language/EN/country/US", false);
+    xhr.open("GET", "https://www.latam.com/ws/api/flight-status/1.1/rest/airline-code/" + airlineCode + "/flight-number/" + flightNumber + "/standar-time-condition/SCHEDULE/departure-date/" + date + "/language/" + getLocale() + "/country/US", false);
     xhr.setRequestHeader("Content-type", "application/json");
     xhr.send();
     var response = JSON.parse(xhr.responseText);
