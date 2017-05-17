@@ -13,7 +13,10 @@
 		"arrives_and": "and arrives at",
 		"leaves_at": "option takes off at",
 		"takes_off_at": "takes off at",
-		"id": "ID"
+		"id": "ID",
+		"notfound": "There is no flight data",
+		"flightis": "Your flight is ",
+		"takeoff": " and take off in "
 	},
 	"actions": {
 		"email_sent": "Ok, email was sent to"
@@ -52,5 +55,6 @@
 	},
 	"tomorrow": "tomorrow",
 	"today": "today",
-	"yesterday": "yesterday"
+	"yesterday": "yesterday",
+	"minutes": " minutes"
 }

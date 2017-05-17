@@ -13,7 +13,10 @@
 		"arrives_and": "y aterriza a las",
 		"leaves_at": "opción despega a las",
 		"takes_off_at": "despega a las",
-		"id": "identificador"
+		"id": "identificador",
+		"notfound": "No se encuentra ningún vuelo",
+		"flightis": "Su vuelo está ",
+		"takeoff": " y sale en "
 	},
 	"actions": {
 		"email_sent": "Ok, El correo electrónico ha sido enviado a"
@@ -53,5 +56,6 @@
 	"tomorrow": "mañana",
 	"today": "hoy",
 	"yesterday": "ayer",
-	"2017-05-04": "2017-05-04"
+	"2017-05-04": "2017-05-04",
+	"minutes": " minutos"
 }
