@@ -1,0 +1,79 @@
+{
+  "id": "06915d0a-4a24-47ae-a80a-a33ed62c6623",
+  "name": "seats",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "a1",
+      "synonyms": [
+        "a1",
+        "1a"
+      ]
+    },
+    {
+      "value": "a2",
+      "synonyms": [
+        "a2",
+        "2a"
+      ]
+    },
+    {
+      "value": "a3",
+      "synonyms": [
+        "a3",
+        "3a"
+      ]
+    },
+    {
+      "value": "a4",
+      "synonyms": [
+        "a4",
+        "4a"
+      ]
+    },
+    {
+      "value": "a5",
+      "synonyms": [
+        "a5",
+        "5a"
+      ]
+    },
+    {
+      "value": "b1",
+      "synonyms": [
+        "b1",
+        "1b"
+      ]
+    },
+    {
+      "value": "b2",
+      "synonyms": [
+        "b2",
+        "2b"
+      ]
+    },
+    {
+      "value": "b3",
+      "synonyms": [
+        "b3",
+        "3b"
+      ]
+    },
+    {
+      "value": "b4",
+      "synonyms": [
+        "b4",
+        "4b"
+      ]
+    },
+    {
+      "value": "b5",
+      "synonyms": [
+        "b5",
+        "5b"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

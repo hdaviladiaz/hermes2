@@ -1,0 +1,37 @@
+{
+  "userSays": [],
+  "id": "162e34c5-941b-41e1-ae68-f4ce8177a358",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hey there!",
+            "Hey friend! How can I help you?",
+            "Hello! What are you looking for?",
+            "Hey! How\u0027s your day going?",
+            "Long time no speak! How\u0027s it going?",
+            "What\u0027s up?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

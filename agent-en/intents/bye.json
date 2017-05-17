@@ -1,0 +1,111 @@
+{
+  "userSays": [
+    {
+      "id": "d36c078f-b3d6-496b-b18c-8e0afdc61609",
+      "data": [
+        {
+          "text": "stop"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4bff0c0a-018e-4622-9b3d-fa09541fe311",
+      "data": [
+        {
+          "text": "cancel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56b78214-6550-4e78-9879-f46baa2871ff",
+      "data": [
+        {
+          "text": "bye bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c2152dbc-96f7-45e2-9a51-9100532bcef8",
+      "data": [
+        {
+          "text": "good bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "833c15f3-0524-4055-9048-f65e497d395d",
+      "data": [
+        {
+          "text": "have a nice day"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2898db26-4a4c-420c-83d1-f00ffb740a6b",
+      "data": [
+        {
+          "text": "see you soon"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1e3c4b37-fa9e-4eda-a26d-5a19d734c52d",
+      "data": [
+        {
+          "text": "see you later"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "094a25c5-0fc9-4d69-89b6-7017451ed593",
+      "data": [
+        {
+          "text": "bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f80ec455-44c8-4142-9282-88a72995488c",
+  "name": "bye",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "smalltalk.greetings.bye",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "bye, have a nice day",
+            "bye bye",
+            "see you later"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

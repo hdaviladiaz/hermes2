@@ -1,0 +1,104 @@
+{
+  "userSays": [
+    {
+      "id": "55094ecb-bad2-4cb7-b292-2b5c08b4bd97",
+      "data": [
+        {
+          "text": "Helou"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1adcc9b5-dced-4b68-a21f-875d7bdb1c47",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b85b1b8c-be3f-40b0-a983-71e80856547f",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "c8502406-8d63-4078-bab5-244f32383817",
+      "data": [
+        {
+          "text": "Whats up"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "77f633dd-1962-49b7-bca3-d1b1fbebc729",
+      "data": [
+        {
+          "text": "Greetings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd07bbd4-9775-4907-be3d-c56e1534fcb2",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "81b46c7a-0103-4623-bd99-0dee8e4e6351",
+      "data": [
+        {
+          "text": "Hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d6e1b32c-ce2e-4b1c-be6a-b53003b7b375",
+  "name": "Greetings",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetings",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hey there. How\u0027s it going?",
+            "Hey! Nice to see you again",
+            "Hi!",
+            "Howdy! How\u0027s it going?",
+            "Oh hello there. You look great today.",
+            "Hey! What\u0027s up?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

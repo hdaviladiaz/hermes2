@@ -1,0 +1,218 @@
+{
+  "userSays": [
+    {
+      "id": "b5aa1e67-1f7d-45d1-a3a1-98b0fd47ce2a",
+      "data": [
+        {
+          "text": "what\u0027s my seat for my flight?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fe21016d-5e48-4607-99a0-982b34e8e5fb",
+      "data": [
+        {
+          "text": "can I get an aisle seat?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b8f5022-33da-44ec-ba17-7e5241a2fbf4",
+      "data": [
+        {
+          "text": "can I get a window seat?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e9ad0d8c-9b8e-4e3d-ab22-b4237a8a9e5d",
+      "data": [
+        {
+          "text": "can I choose my seat for the flight?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b58f3077-131f-4855-9ca2-4fbaab18de55",
+      "data": [
+        {
+          "text": "Can I choose my seat?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "782317b3-a1ec-4a5d-b886-9d17d0f756eb",
+      "data": [
+        {
+          "text": "I want to check in for my flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "41365e02-acb7-477e-ab0b-e10dea26f439",
+      "data": [
+        {
+          "text": "I want to check in"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0d0de68b-48a4-432c-af42-15cf1ba245ea",
+      "data": [
+        {
+          "text": "How do I check in for my flight?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9b4b729b-c00d-438a-9c9b-03421280d7a4",
+      "data": [
+        {
+          "text": "can I check in for my flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "63ba2b05-92e9-4d95-8307-4101ad463183",
+      "data": [
+        {
+          "text": "I\u0027d like to check in for my flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1afc7749-b309-49a1-a090-bb3ddc5e7da7",
+      "data": [
+        {
+          "text": "Is it time for me to check in?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3612a582-1d5e-4a2c-9337-d8cb68611b1e",
+      "data": [
+        {
+          "text": "Hey can I check in?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e2f49dc-2fff-4c1e-a4e4-f619c1051095",
+      "data": [
+        {
+          "text": "I\u0027m ready to check in."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b6ed5f24-3db4-4e79-95d2-1b0b96957657",
+      "data": [
+        {
+          "text": "checking"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56916031-5b50-429a-8a1e-54dfd9dc0c31",
+      "data": [
+        {
+          "text": "check in"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e8317a85-82eb-43c7-a0af-78b84f67245d",
+      "data": [
+        {
+          "text": "Chek in"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69f2aef9-3691-4ddb-a5bd-167cbcc60297",
+      "data": [
+        {
+          "text": "I  want to check in my flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6185c83b-e842-42fb-a94e-1ccd83b7e6a9",
+  "name": "Check-In",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "checkIn",
+      "affectedContexts": [
+        {
+          "name": "checkIn",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Check-In-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "passport",
+          "prompts": [
+            "What is your passport number?."
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

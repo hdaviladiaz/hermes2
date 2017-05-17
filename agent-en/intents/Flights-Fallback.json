@@ -1,0 +1,35 @@
+{
+  "userSays": [],
+  "id": "e16c45b6-263c-4bda-a8dd-00d32f8cb9dc",
+  "parentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "rootParentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights-Fallback",
+  "auto": false,
+  "contexts": [
+    "flight",
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights.fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Can you repeat that again please?",
+            "Are you sure you are talking about a flight?",
+            "I missed that"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

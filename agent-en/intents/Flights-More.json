@@ -1,0 +1,243 @@
+{
+  "userSays": [
+    {
+      "id": "0470be87-893c-4bbe-8fa3-52d1fae0484a",
+      "data": [
+        {
+          "text": "can you give me some more options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d505154-79d2-4559-9f9a-bfcfb007c27b",
+      "data": [
+        {
+          "text": "what are some other options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8ca534cb-7dd5-483d-9e66-d11bb68107b4",
+      "data": [
+        {
+          "text": "do you have more options?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3c8d591f-251e-4207-98e6-cedeb5127a66",
+      "data": [
+        {
+          "text": "more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e318ae0c-8cc3-44fc-b8d0-eeaf4c1aeaff",
+      "data": [
+        {
+          "text": "give me more options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "15cea044-d511-44be-9dc3-b784dbc88911",
+      "data": [
+        {
+          "text": "do you have more options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d310de1d-21ca-425c-b68f-3a4fee37e180",
+      "data": [
+        {
+          "text": "can you give me more options please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2259021a-b75d-431a-a8ff-72900199b6f9",
+      "data": [
+        {
+          "text": "more options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e016697a-6242-4944-8d7b-3868ea661410",
+      "data": [
+        {
+          "text": "more options please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bfc8c9b1-a1e5-4d19-9f4c-f8c2c479e091",
+      "data": [
+        {
+          "text": "can you give me more options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "141e81ea-8145-4e27-98a9-e2cb2e30a0e7",
+      "data": [
+        {
+          "text": "yes give me more options"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a850fe61-4a65-4447-90bc-890d76dc644e",
+      "data": [
+        {
+          "text": "can you tell me more options?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "513d2ee1-2672-4f41-a8d0-802e32146d99",
+      "data": [
+        {
+          "text": "more results"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2e6d74db-91f2-4e5a-b15f-138a52e5b22d",
+      "data": [
+        {
+          "text": "anything else"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bff11217-2c08-4b67-81b9-2793201fed41",
+      "data": [
+        {
+          "text": "other results"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d586743a-bb14-4d9d-9e51-287d2b94eaed",
+      "data": [
+        {
+          "text": "what else"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "45464ef3-f542-4a7a-94e6-5f47ff3439ac",
+      "data": [
+        {
+          "text": "are there more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "33290a74-8c51-40e4-ac5c-8424f2ec7a35",
+      "data": [
+        {
+          "text": "tell me more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f91869c4-0ce4-4ba0-9b25-8d949b9da1e1",
+      "data": [
+        {
+          "text": "show me more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a3dffe19-e473-4c99-b2d3-510d20050322",
+      "data": [
+        {
+          "text": "more information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d05d932d-36ed-4b49-a6bc-a6641fa8b0db",
+  "parentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "rootParentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights-More",
+  "auto": true,
+  "contexts": [
+    "flight",
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights.more",
+      "affectedContexts": [
+        {
+          "name": "flight",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I couldn\u0027t get more flights. I will search what was wrong."
+        }
+      ]
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

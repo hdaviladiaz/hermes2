@@ -1,0 +1,91 @@
+{
+  "userSays": [],
+  "id": "0b41b472-1d6d-4eef-aca6-decbca3cfb60",
+  "parentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "rootParentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights-UserInfo",
+  "auto": true,
+  "contexts": [
+    "flight",
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights.info",
+      "affectedContexts": [
+        {
+          "name": "flight",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-Booking-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "#flight.name",
+          "prompts": [
+            "Ok, I need some information. What is your first name?",
+            "Ok, I need some information. Tell me your first name."
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "lastname",
+          "value": "#flight.lastname",
+          "prompts": [
+            "Tell me your last name.",
+            "Your last name please."
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "passport",
+          "value": "#flight.passport",
+          "prompts": [
+            "Your passport number please.",
+            "Give me your passport number."
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "action",
+          "value": "#flight-user-info.action",
+          "prompts": [
+            "the action"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "flight-user-info"
+    }
+  ]
+}

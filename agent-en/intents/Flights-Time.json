@@ -1,0 +1,277 @@
+{
+  "userSays": [
+    {
+      "id": "97c49df8-363c-469a-ac86-9421ed0b29c3",
+      "data": [
+        {
+          "text": "can you tell me more information about the flight?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "292da736-5106-43f5-be6f-24f0a80bad29",
+      "data": [
+        {
+          "text": "tell me more information about the flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "40020fdd-f73a-4042-80fa-e96488c5b34f",
+      "data": [
+        {
+          "text": "can you give me more information?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d2e8475-81e7-4442-9691-dd01898a79bc",
+      "data": [
+        {
+          "text": "give me more information please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c8477737-bd26-4269-93a6-bdb91b1b9816",
+      "data": [
+        {
+          "text": "what are the times of those flights"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc26eb2b-62b6-43c2-bec1-3a58cd628ad7",
+      "data": [
+        {
+          "text": "what time are those flights"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f853cd83-2da8-4a86-9235-abe28842f057",
+      "data": [
+        {
+          "text": "can you give me the departure times?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "caa048d3-a235-4ee9-b814-addca5d52e66",
+      "data": [
+        {
+          "text": "what time does that flight leave?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ce70d54-19d9-45fe-a497-6112726fe279",
+      "data": [
+        {
+          "text": "what time is that flight?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56713212-3c13-48a6-b028-55c4e3ce14af",
+      "data": [
+        {
+          "text": "what times are those flights?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dfa6ca4d-9b25-4584-99b8-790d40ba011b",
+      "data": [
+        {
+          "text": "when do those flights depart?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7dcd1783-2858-42c8-9b89-4335bb6efc99",
+      "data": [
+        {
+          "text": "when does that flight depart?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cedeb59b-b51b-4097-8916-b8effadaa63f",
+      "data": [
+        {
+          "text": "what are the times of those flights?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1897a7fc-2356-4934-9e2c-340350445909",
+      "data": [
+        {
+          "text": "what are the times of that flight?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c204a4f-f273-4545-a45c-bfbb3472e6eb",
+      "data": [
+        {
+          "text": "give me the time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "57bea78d-dc47-4f4b-912d-b82af2dd1068",
+      "data": [
+        {
+          "text": "give me the time of the "
+        },
+        {
+          "text": "second",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "374cbd6b-ad05-4dd0-a1b1-6f51d1808183",
+      "data": [
+        {
+          "text": "tell me the time of the "
+        },
+        {
+          "text": "first",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d281509a-bf44-4540-a1e6-8c24db739553",
+      "data": [
+        {
+          "text": "give me the time for the "
+        },
+        {
+          "text": "second",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ebb19c7-6a52-48d7-88cf-9abd137033c1",
+      "data": [
+        {
+          "text": "Tell me the time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3c3c523a-7b4a-43a8-b31a-d565bd18ae1c",
+      "data": [
+        {
+          "text": "Can you give me the time?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a816023a-f4aa-40b7-8d4c-da0c76c98856",
+      "data": [
+        {
+          "text": "Give me the time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "265a3f7e-fd38-4e02-baed-7b1ca851e173",
+  "parentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "rootParentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights-Time",
+  "auto": true,
+  "contexts": [
+    "flight",
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights.time",
+      "affectedContexts": [
+        {
+          "name": "flight",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

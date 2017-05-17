@@ -1,0 +1,195 @@
+{
+  "userSays": [
+    {
+      "id": "9f7609b5-5bd6-47e9-a748-81b17e65d4bd",
+      "data": [
+        {
+          "text": "p@mail.com"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "723924f0-2ded-4b68-b446-6994b2976c86",
+      "data": [
+        {
+          "text": "nmontoya@thoughtworks.com",
+          "alias": "email",
+          "meta": "@sys.email",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97bf7c98-46aa-4a40-95fc-55eab4bed5df",
+      "data": [
+        {
+          "text": "Hector Davila 64 at gmail.com",
+          "alias": "email",
+          "meta": "@sys.email",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1cc0a5b5-e47a-4878-9976-de3ffd28d778",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97f99f27-1bd2-4f95-bc34-71414dd5826b",
+      "data": [
+        {
+          "text": "do it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "942ca518-c590-4ac8-9b80-90cd2bc46423",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "4bc65ccc-ae5b-461e-beb0-ce2ee60c81a5",
+      "data": [
+        {
+          "text": "exactly"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc469439-b6e9-4c7b-87cd-a53d3c492f01",
+      "data": [
+        {
+          "text": "confirm"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3615624d-6b6c-4b73-aaf4-c8b9a95485c9",
+      "data": [
+        {
+          "text": "of course"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff59a156-54ce-4fac-bfd8-4cd84dec7e8b",
+      "data": [
+        {
+          "text": "sounds good"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c35a2ea1-c4c3-4098-98b6-2d1352411ed8",
+      "data": [
+        {
+          "text": "that\u0027s correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ee444c5-27ae-44a4-b073-7086d54e55bb",
+      "data": [
+        {
+          "text": "I don\u0027t mind"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "505c4163-58c9-413a-9925-7223e290d754",
+      "data": [
+        {
+          "text": "I agree"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "de824161-49fd-48e9-9fe3-d2ebde3e4431",
+  "parentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "rootParentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights-Send-Email-Yes",
+  "auto": true,
+  "contexts": [
+    "flight",
+    "Flights-followup",
+    "send-email"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights.booking.sendemail",
+      "affectedContexts": [
+        {
+          "name": "flight",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "send-email",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            "Give me your email address"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

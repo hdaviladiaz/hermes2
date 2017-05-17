@@ -1,0 +1,528 @@
+{
+  "userSays": [
+    {
+      "id": "15132fab-05cd-4d42-935d-e18d0986b258",
+      "data": [
+        {
+          "text": "Okay lets book number "
+        },
+        {
+          "text": "7",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4d3bea7-736d-4960-958f-6d3ee755e3ad",
+      "data": [
+        {
+          "text": "I love that option. Can I book it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9a4526a1-a904-4892-b60b-f83370f641d9",
+      "data": [
+        {
+          "text": "Can I book the "
+        },
+        {
+          "text": "fifth",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9451b454-d16b-4698-a7b9-5fb2eb577854",
+      "data": [
+        {
+          "text": "Can I book the "
+        },
+        {
+          "text": "fourth",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c527ad27-a276-481c-804c-be93a879c3ea",
+      "data": [
+        {
+          "text": "I\u0027m interested in option "
+        },
+        {
+          "text": "3",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d1887794-4aba-4b02-83df-61ad51c3d95f",
+      "data": [
+        {
+          "text": "Can I book the "
+        },
+        {
+          "text": "third",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "34f5e773-8b8f-46e1-be1e-518da72dd651",
+      "data": [
+        {
+          "text": "Can I book the second option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd5343f8-1c4f-455c-8d2f-ee460be4a8c8",
+      "data": [
+        {
+          "text": "Can I book the "
+        },
+        {
+          "text": "first",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e30424ac-3808-44b3-b24b-778f04be96a1",
+      "data": [
+        {
+          "text": "can I book the "
+        },
+        {
+          "text": "first one",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you said"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47fa1d5b-726f-4184-bb76-bb80c9a1c63c",
+      "data": [
+        {
+          "text": "can I book the last one you just said"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b6304c5c-cd18-4a8a-be6a-ae4b4c21d3c7",
+      "data": [
+        {
+          "text": "can I book the last one you mentioned"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3f231729-d50a-4995-8bef-9cea7cabfa3d",
+      "data": [
+        {
+          "text": "can I book the last one you said"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8cf363db-485c-44ff-bed2-f2db30cc0bdf",
+      "data": [
+        {
+          "text": "Can I book that one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "290c20fa-97ca-4d8d-8835-faeb484904c5",
+      "data": [
+        {
+          "text": "Id like to reserve the "
+        },
+        {
+          "text": "second",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "935ac8ac-a2d3-4941-8e59-1653825b8466",
+      "data": [
+        {
+          "text": "I want to book the "
+        },
+        {
+          "text": "first",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "804dd09d-b9c3-4534-87e1-c626f45c708d",
+      "data": [
+        {
+          "text": "can I book option "
+        },
+        {
+          "text": "1",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f780fc2d-cfc7-4cdc-9f39-0433ab4cc3aa",
+      "data": [
+        {
+          "text": "Id like to book option "
+        },
+        {
+          "text": "1",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f4f9d0e6-5b14-478c-8a63-4f62115fa168",
+      "data": [
+        {
+          "text": "I want to reserve Option "
+        },
+        {
+          "text": "1",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "41a414d8-72a0-49cf-b3ed-d6b167c46c30",
+      "data": [
+        {
+          "text": "Can I reserve the "
+        },
+        {
+          "text": "first",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e7304b01-f409-4c77-b4bc-3ac711cc767b",
+      "data": [
+        {
+          "text": "Id like to reserve the "
+        },
+        {
+          "text": "first",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c227ca13-dd9e-46af-bf0f-2a2065d8c061",
+      "data": [
+        {
+          "text": "I want to reserve the "
+        },
+        {
+          "text": "first",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b85be576-5019-44ca-ba27-aa5fba3a2491",
+      "data": [
+        {
+          "text": "I want to book"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f771a862-2987-4c56-99e8-51ccc84e066a",
+      "data": [
+        {
+          "text": "book a flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a7de9b4d-b4aa-40a2-8d9f-122c0e4e5882",
+      "data": [
+        {
+          "text": "book it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "dbd0a49d-9eeb-47b9-817b-ada3b40b9cb9",
+      "data": [
+        {
+          "text": "reserve it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5eb5f3cf-345a-476e-a74f-6407f56379ed",
+      "data": [
+        {
+          "text": "book it please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b66dcdc6-b1d3-4d1d-9a50-55c441679093",
+      "data": [
+        {
+          "text": "Reserve me the flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ccf37ac1-ddcc-4be3-bbe6-23760c651099",
+      "data": [
+        {
+          "text": "Book me the fligth"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "350c294c-5449-4c75-9569-de187340a7b5",
+      "data": [
+        {
+          "text": "Please reserve the flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0463a97a-a9a7-4dd8-82e8-007a73b1094e",
+      "data": [
+        {
+          "text": "Can you reserve the flight please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5abb8f5b-c616-403d-ad3f-e230561416c2",
+      "data": [
+        {
+          "text": "Reserve the flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f1a64f8f-ecbc-450e-9330-25342e6478f4",
+      "data": [
+        {
+          "text": "Reserve it please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8e393099-9559-4f26-8600-ffca234e9b1f",
+      "data": [
+        {
+          "text": "Book it please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2df7f1c4-5ca2-46d1-8b49-14ad34904fe2",
+      "data": [
+        {
+          "text": "Please book the flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8c18ba0-610c-43f9-a847-033b51cf9663",
+      "data": [
+        {
+          "text": "Can you book the flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8418dd38-97b9-4033-afbe-09ab8a7f49f0",
+      "data": [
+        {
+          "text": "Book the flight"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "06aedc75-ce31-4797-b20a-7abc8300afbf",
+      "data": [
+        {
+          "text": "Book the flight please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2ae0adce-ad48-454f-adb8-4ba19c6e6d3b",
+  "parentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "rootParentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights-Booking",
+  "auto": true,
+  "contexts": [
+    "flight",
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights.booking",
+      "affectedContexts": [
+        {
+          "name": "flight",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-Booking-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "send-email",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I can\u0027t book the flight right now. Please try later."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

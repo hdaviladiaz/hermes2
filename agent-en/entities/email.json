@@ -1,0 +1,15 @@
+{
+  "id": "98feb99a-4a0f-46ca-9b4e-922f0becc6b1",
+  "name": "email",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "hectordavila64@gmail.com",
+      "synonyms": [
+        "hectordavila64@gmail.com"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

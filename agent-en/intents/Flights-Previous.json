@@ -1,0 +1,173 @@
+{
+  "userSays": [
+    {
+      "id": "d7bd7a5b-23dd-41f0-82be-8aea1d78511c",
+      "data": [
+        {
+          "text": "back"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d1e27218-bd09-4946-b442-b59d143fcb4b",
+      "data": [
+        {
+          "text": "go back"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "607e16d3-d487-4dc0-9054-c160a706584f",
+      "data": [
+        {
+          "text": "okay go back"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0349d151-3b4d-4efd-bd22-407676a3eb7a",
+      "data": [
+        {
+          "text": "previous page"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6f9f4ae8-742b-4adc-9c72-f5274233a142",
+      "data": [
+        {
+          "text": "go to the previous option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e7cc4af5-993a-4459-98c6-105ee2cb4963",
+      "data": [
+        {
+          "text": "previous option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f35531e8-9dc3-4f07-a08c-395d5d1fbf29",
+      "data": [
+        {
+          "text": "previous"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "07ef6b0b-1e75-41c0-a3cc-57d19226bb85",
+      "data": [
+        {
+          "text": "previous results"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb6c981a-80ba-4745-8eb6-fa4880755981",
+      "data": [
+        {
+          "text": "return to the previous"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "120c7ef8-2432-427e-b619-c53744fefd89",
+      "data": [
+        {
+          "text": "return to previous page"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "20b7944a-3991-4a27-8718-f4029d902f0a",
+      "data": [
+        {
+          "text": "go to the previous page"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb5fd606-36c1-4661-a6a0-c76f39b85ab5",
+      "data": [
+        {
+          "text": "go back to previous results"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5e819b2a-e9ea-4dfa-a4ec-c9a08b8c42df",
+      "data": [
+        {
+          "text": "read out the previous results"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "22d2daec-b412-4ef4-b652-4bac4ba0fca0",
+  "parentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "rootParentId": "48463acd-2855-4271-a9a6-91ce1b167f0e",
+  "name": "Flights-Previous",
+  "auto": true,
+  "contexts": [
+    "flight",
+    "Flights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "flights.previous",
+      "affectedContexts": [
+        {
+          "name": "flight",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Flights-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
