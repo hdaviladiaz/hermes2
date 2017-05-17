@@ -1,4 +1,4 @@
-var moment = require('moment');
+  var moment = require('moment');
 var patternFormat = 'YYYY-MM-DD';
 var _ = require('underscore');
 

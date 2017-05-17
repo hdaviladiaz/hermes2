@@ -12,7 +12,6 @@ describe('Flight service searching', function() {
    it('should change dates of the trips with near suggested dates in the JSON response', function() {
     setLocale('es');
     var text = searchFlightService.searchFlights(expectedOrigin, expectedDestination, expectedDepartureDate)
-    console.log(text);
     expect(text).to.be.a('string');
   });
 });

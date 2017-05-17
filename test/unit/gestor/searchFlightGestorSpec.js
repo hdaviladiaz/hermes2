@@ -47,12 +47,12 @@ describe('Flight gestor searching', function () {
         x.layovers = [],
         x.departure = {
           "date": moment(expectedDepartureDate, patternFormat).add(0, 'days').format(),
-          "time": moment(expectedDepartureDate, patternFormat).add(index, 'minutes').format('HH:mm'),
+          "time":index % 2 == 0 ? "04:30" : "15:00" ,
           "airport": defaultOrigin + " airport"
         },
         x.arrival = {
           "date": moment(expectedDepartureDate, patternFormat).add(0, 'days').format(),
-          "time": moment(expectedDepartureDate, patternFormat).add(index + duration, 'minutes').format('HH:mm'),
+          "time": index % 2 == 0 ? "06:30" : "17:00",
           "airport": defaultDestination + " airport"
         }
       return x;
