@@ -16,7 +16,7 @@
 		"id": "identificador",
 		"notfound": "No se encuentra ningún vuelo",
 		"flightis": "Su vuelo está ",
-		"takeoff": " y sale en "
+		"takeoff": " y sale "
 	},
 	"actions": {
 		"email_sent": "Ok, El correo electrónico ha sido enviado a"

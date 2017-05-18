@@ -1,5 +1,7 @@
 var statusFlightGestor = require('../gestor/statusFlightGestor.js');
 var i18n = require('../i18n');
+var humanize = require('humanize');
+var moment = require('moment');
 
 var getStatus = function (airlineCode, flightNumber, date) {
   var flight = statusFlightGestor.statusFlightHttpRequest(airlineCode, flightNumber, date);
@@ -9,8 +11,9 @@ var getStatus = function (airlineCode, flightNumber, date) {
   } else {
     text = __('flights.flightis') + flight.status;
     if (flight.datetime != null) {
-      var mins = (Date.parse(flight.datetime.local) - Date.now()) / 60000;
-      text += __('flights.takeoff') + Math.round(mins, 0) + __('minutes');
+      var relTime = humanize.relativeTime(moment(flight.datetime.local).unix());
+      console.log(moment(flight.datetime.local).unix());
+      text += __('flights.takeoff') + relTime;
     }
   }
   

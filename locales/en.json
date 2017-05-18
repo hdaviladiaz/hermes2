@@ -16,7 +16,7 @@
 		"id": "ID",
 		"notfound": "There is no flight data",
 		"flightis": "Your flight is ",
-		"takeoff": " and take off in "
+		"takeoff": " and take off "
 	},
 	"actions": {
 		"email_sent": "Ok, email was sent to"
