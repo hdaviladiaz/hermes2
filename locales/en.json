@@ -55,7 +55,5 @@
 	},
 	"tomorrow": "tomorrow",
 	"today": "today",
-	"yesterday": "yesterday",
-	"minutes": " minutes",
-	"aprox": " approximately"
+	"yesterday": "yesterday"
 }
