@@ -11,9 +11,8 @@ var getStatus = function (airlineCode, flightNumber, date) {
   } else {
     text = __('flights.flightis') + flight.status;
     if (flight.datetime != null) {
-      //var relTime = humanize.relativeTime(moment("2017-05-20T13:15:00").unix());
-      var relTime = humanize.relativeTime(moment(flight.datetime.local).unix());
-      
+      //var relTime = humanize.relativeTime(moment("2017-05-19T13:15:00").unix());
+      var relTime = humanize.relativeTime(moment(flight.datetime.utc).unix());
       if (getLocale().toLowerCase() == "es") {
         relTime = relTime.replace("just now","ahora mismo");
         relTime = relTime.replace("now","ahora mismo");
