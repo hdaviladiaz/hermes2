@@ -23,11 +23,12 @@ var getStatus = function (airlineCode, flightNumber, date) {
         relTime = relTime.replace("in about an","1");
         relTime = relTime.replace("in about a","1");
         relTime = relTime.replace("in ","en ");
+        relTime = relTime.replace("está Aterrizó","ya Aterrizó");
       }
       text += __('flights.takeoff') + relTime;
     }
   }
-  
+  text = text.replace("está Aterrizó","ya Aterrizó");
   return text;
 }
 
